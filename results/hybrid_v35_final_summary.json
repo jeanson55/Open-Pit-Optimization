@@ -1,0 +1,22 @@
+[
+  {
+    "dataset": "bauxitemed",
+    "final_npv": 28251171.0,
+    "runtime": 35.57315325700256
+  },
+  {
+    "dataset": "cucase",
+    "final_npv": 19400896.0,
+    "runtime": 163.38835126900085
+  },
+  {
+    "dataset": "cupipe",
+    "final_npv": 58803806.0,
+    "runtime": 163.7272896530012
+  },
+  {
+    "dataset": "mclaughlingeo",
+    "final_npv": 1174540950.0,
+    "runtime": 199.2912502750005
+  }
+]

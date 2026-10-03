@@ -1,0 +1,30 @@
+{
+  "dataset": "cucase",
+  "dimensions": [
+    170,
+    215,
+    50
+  ],
+  "samples": 12,
+  "sample_sizes": [
+    8,
+    9,
+    10
+  ],
+  "samples_skipped_above_lg_limit": 0,
+  "lg_sample_node_limit": 4096,
+  "labels": {
+    "HPF": 3,
+    "LG": 9
+  },
+  "mean_absolute_objective_delta": 0.0,
+  "csv": "/mnt/c/Users/UMaT/Desktop/python/Machine Learning/LG-Pseudoflow Opt/Pit_Optimization/results/solver_crossover_expansion_20260929_01/raw/adaptive_solver_crossover_cucase.csv",
+  "ml_model": "/mnt/c/Users/UMaT/Desktop/python/Machine Learning/LG-Pseudoflow Opt/Pit_Optimization/results/solver_crossover_expansion_20260929_01/raw/solver_selector_cucase.joblib",
+  "scope_warning": "single-model spatial-patch pilot; not an independent validation set",
+  "group_cv_accuracy_mean": 0.9166666666666666,
+  "group_cv_accuracy_std": 0.14433756729740646,
+  "model_classes": [
+    "HPF",
+    "LG"
+  ]
+}

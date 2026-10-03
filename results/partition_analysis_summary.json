@@ -1,0 +1,122 @@
+{
+  "bauxitemed": {
+    "best_method": "Spatial",
+    "best_npv": 28652908.0,
+    "results": [
+      {
+        "method": "Spatial",
+        "npv": 28652908.0,
+        "runtime": 36.14417069799674,
+        "violations": 1465
+      },
+      {
+        "method": "METIS",
+        "npv": 28251171.0,
+        "runtime": 36.20505558700097,
+        "violations": 1832
+      },
+      {
+        "method": "Hybrid_V32",
+        "npv": 28652908.0,
+        "runtime": 34.382537796002,
+        "violations": 1465
+      },
+      {
+        "method": "Hybrid_V31",
+        "npv": 28251171.0,
+        "runtime": 35.99604749900027,
+        "violations": 1832
+      }
+    ]
+  },
+  "cucase": {
+    "best_method": "METIS",
+    "best_npv": 19400896.0,
+    "results": [
+      {
+        "method": "Spatial",
+        "npv": 19359730.0,
+        "runtime": 167.64202274599666,
+        "violations": 2309
+      },
+      {
+        "method": "METIS",
+        "npv": 19400896.0,
+        "runtime": 165.8400697219986,
+        "violations": 3933
+      },
+      {
+        "method": "Hybrid_V32",
+        "npv": 19359730.0,
+        "runtime": 168.64591449600266,
+        "violations": 2309
+      },
+      {
+        "method": "Hybrid_V31",
+        "npv": 19400896.0,
+        "runtime": 175.9051466710007,
+        "violations": 3933
+      }
+    ]
+  },
+  "cupipe": {
+    "best_method": "METIS",
+    "best_npv": 58803806.0,
+    "results": [
+      {
+        "method": "Spatial",
+        "npv": 57815484.0,
+        "runtime": 164.96092823900108,
+        "violations": 12257
+      },
+      {
+        "method": "METIS",
+        "npv": 58803806.0,
+        "runtime": 154.03227328199864,
+        "violations": 18765
+      },
+      {
+        "method": "Hybrid_V32",
+        "npv": 57815484.0,
+        "runtime": 156.83776566100278,
+        "violations": 12257
+      },
+      {
+        "method": "Hybrid_V31",
+        "npv": 58803806.0,
+        "runtime": 205.84881352599768,
+        "violations": 18765
+      }
+    ]
+  },
+  "mclaughlingeo": {
+    "best_method": "Spatial",
+    "best_npv": 1179217403.0,
+    "results": [
+      {
+        "method": "Spatial",
+        "npv": 1179217403.0,
+        "runtime": 252.26410213299823,
+        "violations": 6350
+      },
+      {
+        "method": "METIS",
+        "npv": 1174540950.0,
+        "runtime": 204.6791721289992,
+        "violations": 4616
+      },
+      {
+        "method": "Hybrid_V32",
+        "npv": 1179217403.0,
+        "runtime": 196.21116773800168,
+        "violations": 6350
+      },
+      {
+        "method": "Hybrid_V31",
+        "npv": 1174540950.0,
+        "runtime": 213.94550180600345,
+        "violations": 4616
+      }
+    ]
+  }
+}

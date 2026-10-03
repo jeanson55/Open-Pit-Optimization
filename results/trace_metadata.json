@@ -1,0 +1,19 @@
+{
+  "blocks": 240500,
+  "dimensions": [
+    120,
+    120,
+    26
+  ],
+  "local_selected": 71831,
+  "repaired_selected": 85784,
+  "final_selected": 83800,
+  "initial_violation_nodes": 3137,
+  "repair_added": 13953,
+  "max_repair_level": 25,
+  "boundary_member": 32853,
+  "boundary_added": 2,
+  "boundary_removed": 1986,
+  "initial_npv": 31801369.0,
+  "final_npv": 26556907.0
+}

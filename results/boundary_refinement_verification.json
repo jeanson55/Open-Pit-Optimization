@@ -1,0 +1,9 @@
+{
+  "seed": 3603,
+  "cases": 100,
+  "exhaustive_hpf_closure_checks": 100,
+  "boundary_feasibility_and_nonregression_checks": 100,
+  "maximum_hpf_objective_error": 0.0,
+  "value_rounding_tolerance": 0.011,
+  "status": "passed"
+}

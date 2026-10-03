@@ -1,0 +1,292 @@
+{
+  "partitions": 4,
+  "datasets": [
+    "bauxitemed",
+    "cucase",
+    "cupipe",
+    "mclaughlingeo"
+  ],
+  "independent_dataset_groups": 4,
+  "per_deposit_results": [
+    {
+      "dataset": "bauxitemed",
+      "best_methods": [
+        "spatial"
+      ],
+      "best_npv": 29065667.0,
+      "methods": {
+        "spatial": {
+          "npv": 29065667.0,
+          "relative_npv_regret": 0.0,
+          "partition_seconds": 1.8730636999971466,
+          "local_solve_seconds": 32.794169408993184,
+          "refinement_seconds": 0.5371071160006977,
+          "total_reported_seconds": 45.85809030799646,
+          "cut_fraction": 0.008314904909332154,
+          "balance_max_over_mean": 1.0,
+          "initial_violations": 273,
+          "cascade_added_blocks": 1614,
+          "cascade_depth": 19,
+          "final_violations": 0
+        },
+        "metis": {
+          "npv": 28958649.0,
+          "relative_npv_regret": 0.003681938556579486,
+          "partition_seconds": 7.375786248001532,
+          "local_solve_seconds": 29.328043390996754,
+          "refinement_seconds": 0.4913554209997528,
+          "total_reported_seconds": 47.34408724000241,
+          "cut_fraction": 0.009499336576735958,
+          "balance_max_over_mean": 1.0,
+          "initial_violations": 507,
+          "cascade_added_blocks": 2640,
+          "cascade_depth": 18,
+          "final_violations": 0
+        },
+        "spectral": {
+          "npv": 15715341.0,
+          "relative_npv_regret": 0.4593160033107102,
+          "partition_seconds": 71.03001138599939,
+          "local_solve_seconds": 26.965855312999338,
+          "refinement_seconds": 0.5820339950005291,
+          "total_reported_seconds": 108.8717744300011,
+          "cut_fraction": 0.05528261831048209,
+          "balance_max_over_mean": 1.0,
+          "initial_violations": 8944,
+          "cascade_added_blocks": 32283,
+          "cascade_depth": 25,
+          "final_violations": 0
+        }
+      }
+    },
+    {
+      "dataset": "cucase",
+      "best_methods": [
+        "spatial"
+      ],
+      "best_npv": 19435800.0,
+      "methods": {
+        "spatial": {
+          "npv": 19435800.0,
+          "relative_npv_regret": 0.0,
+          "partition_seconds": 8.322755121000228,
+          "local_solve_seconds": 136.3172428120015,
+          "refinement_seconds": 2.1865842700026406,
+          "total_reported_seconds": 193.11756843500189,
+          "cut_fraction": 0.005533980582524272,
+          "balance_max_over_mean": 1.005784215306659,
+          "initial_violations": 535,
+          "cascade_added_blocks": 2302,
+          "cascade_depth": 17,
+          "final_violations": 0
+        },
+        "metis": {
+          "npv": 19423683.0,
+          "relative_npv_regret": 0.0006234371623498904,
+          "partition_seconds": 27.04326540599868,
+          "local_solve_seconds": 134.21978168999703,
+          "refinement_seconds": 2.2603675710015523,
+          "total_reported_seconds": 209.40877026699673,
+          "cut_fraction": 0.0064553199920745,
+          "balance_max_over_mean": 1.0000019121372914,
+          "initial_violations": 697,
+          "cascade_added_blocks": 2142,
+          "cascade_depth": 29,
+          "final_violations": 0
+        },
+        "spectral": {
+          "npv": 19136484.0,
+          "relative_npv_regret": 0.01540024079276387,
+          "partition_seconds": 341.3566652119989,
+          "local_solve_seconds": 134.7222036259991,
+          "refinement_seconds": 2.2041382050010725,
+          "total_reported_seconds": 524.1752650219933,
+          "cut_fraction": 0.02610342777887854,
+          "balance_max_over_mean": 1.0000019121372914,
+          "initial_violations": 13448,
+          "cascade_added_blocks": 24340,
+          "cascade_depth": 33,
+          "final_violations": 0
+        }
+      }
+    },
+    {
+      "dataset": "cupipe",
+      "best_methods": [
+        "spatial"
+      ],
+      "best_npv": 138208894.0,
+      "methods": {
+        "spatial": {
+          "npv": 138208894.0,
+          "relative_npv_regret": 0.0,
+          "partition_seconds": 7.453800496998156,
+          "local_solve_seconds": 135.3294223449957,
+          "refinement_seconds": 2.7280680330004543,
+          "total_reported_seconds": 189.84492363699974,
+          "cut_fraction": 0.006680339876941108,
+          "balance_max_over_mean": 1.0,
+          "initial_violations": 7218,
+          "cascade_added_blocks": 114749,
+          "cascade_depth": 74,
+          "final_violations": 0
+        },
+        "metis": {
+          "npv": 76919897.0,
+          "relative_npv_regret": 0.4434519025960804,
+          "partition_seconds": 30.582111207997514,
+          "local_solve_seconds": 130.3027719740021,
+          "refinement_seconds": 4.922669815001427,
+          "total_reported_seconds": 210.03128111299884,
+          "cut_fraction": 0.008680884014901009,
+          "balance_max_over_mean": 1.0,
+          "initial_violations": 10788,
+          "cascade_added_blocks": 425302,
+          "cascade_depth": 77,
+          "final_violations": 0
+        },
+        "spectral": {
+          "npv": 81074506.0,
+          "relative_npv_regret": 0.4133915433835973,
+          "partition_seconds": 301.9333598649973,
+          "local_solve_seconds": 121.96491013200284,
+          "refinement_seconds": 3.585126542006037,
+          "total_reported_seconds": 469.79255489399657,
+          "cut_fraction": 0.02994600477167134,
+          "balance_max_over_mean": 1.0,
+          "initial_violations": 16612,
+          "cascade_added_blocks": 282167,
+          "cascade_depth": 84,
+          "final_violations": 0
+        }
+      }
+    },
+    {
+      "dataset": "mclaughlingeo",
+      "best_methods": [
+        "metis"
+      ],
+      "best_npv": 1189699445.0,
+      "methods": {
+        "spatial": {
+          "npv": 1184853440.0,
+          "relative_npv_regret": 0.0040733018918068,
+          "partition_seconds": 9.773643681000976,
+          "local_solve_seconds": 169.21674882399748,
+          "refinement_seconds": 2.9668961450006464,
+          "total_reported_seconds": 237.6088751260031,
+          "cut_fraction": 0.006699419383653417,
+          "balance_max_over_mean": 1.0,
+          "initial_violations": 1147,
+          "cascade_added_blocks": 13508,
+          "cascade_depth": 38,
+          "final_violations": 0
+        },
+        "metis": {
+          "npv": 1189699445.0,
+          "relative_npv_regret": 0.0,
+          "partition_seconds": 40.09619800400105,
+          "local_solve_seconds": 162.2083236610015,
+          "refinement_seconds": 2.679740548999689,
+          "total_reported_seconds": 260.37919094200333,
+          "cut_fraction": 0.005942818289081613,
+          "balance_max_over_mean": 1.0,
+          "initial_violations": 641,
+          "cascade_added_blocks": 2328,
+          "cascade_depth": 36,
+          "final_violations": 0
+        },
+        "spectral": {
+          "npv": 1134417979.0,
+          "relative_npv_regret": 0.04646674942342265,
+          "partition_seconds": 410.635344383998,
+          "local_solve_seconds": 156.13565317101165,
+          "refinement_seconds": 3.247862021999026,
+          "total_reported_seconds": 624.015063810999,
+          "cut_fraction": 0.03168442068354076,
+          "balance_max_over_mean": 1.0,
+          "initial_violations": 27342,
+          "cascade_added_blocks": 96269,
+          "cascade_depth": 48,
+          "final_violations": 0
+        }
+      }
+    }
+  ],
+  "leave_one_dataset_out_winner_majority_baseline": {
+    "accuracy": 0.75,
+    "mean_relative_npv_regret": 0.0010183254729517,
+    "holdouts": [
+      {
+        "held_out_dataset": "bauxitemed",
+        "training_winner_counts": {
+          "spatial": 2,
+          "metis": 1
+        },
+        "selected_method": "spatial",
+        "observed_best_methods": [
+          "spatial"
+        ],
+        "correct": true,
+        "relative_npv_regret": 0.0
+      },
+      {
+        "held_out_dataset": "cucase",
+        "training_winner_counts": {
+          "spatial": 2,
+          "metis": 1
+        },
+        "selected_method": "spatial",
+        "observed_best_methods": [
+          "spatial"
+        ],
+        "correct": true,
+        "relative_npv_regret": 0.0
+      },
+      {
+        "held_out_dataset": "cupipe",
+        "training_winner_counts": {
+          "spatial": 2,
+          "metis": 1
+        },
+        "selected_method": "spatial",
+        "observed_best_methods": [
+          "spatial"
+        ],
+        "correct": true,
+        "relative_npv_regret": 0.0
+      },
+      {
+        "held_out_dataset": "mclaughlingeo",
+        "training_winner_counts": {
+          "spatial": 3
+        },
+        "selected_method": "spatial",
+        "observed_best_methods": [
+          "metis"
+        ],
+        "correct": false,
+        "relative_npv_regret": 0.0040733018918068
+      }
+    ]
+  },
+  "fixed_method_baselines": {
+    "always_spatial": {
+      "mean_relative_npv_regret": 0.0010183254729517,
+      "wins": 3
+    },
+    "always_metis": {
+      "mean_relative_npv_regret": 0.11193931957875244,
+      "wins": 1
+    },
+    "always_spectral": {
+      "mean_relative_npv_regret": 0.2336436342276235,
+      "wins": 0
+    }
+  },
+  "limitations": [
+    "Only four independent deposits and one matched partition count are included; this is grouped baseline analysis, not ML training.",
+    "Spectral uses approximate LOBPCG embeddings; three large-graph runs emitted convergence-tolerance warnings in the console, whose residual vectors are not stored in the JSON metrics.",
+    "Reported total is partition runtime plus adaptive-solver total runtime; graph-load time is not included."
+  ]
+}

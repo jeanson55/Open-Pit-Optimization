@@ -1,0 +1,44 @@
+{
+  "purpose": "reproducibility and provenance for a report generated from recorded runs",
+  "historical_experiment_environment": {
+    "platform": "Ubuntu (recorded in experiments/EXPERIMENT_E.md)",
+    "python_version": "not recorded in historical result artifacts",
+    "optional_packages_recorded_for_full_experiment_e": {
+      "scipy": "1.18.1",
+      "scikit_learn": "1.9.1",
+      "pymetis": "2025.2.2"
+    },
+    "cpu_and_physical_memory": "not recorded; peak process RSS is available in global benchmark JSON",
+    "hashes_captured_at_original_run": false,
+    "hash_note": "SHA-256 values below were computed from current source files during report generation."
+  },
+  "report_builder_environment": {
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "executable": "C:\\Users\\UMaT\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe"
+  },
+  "inputs": [
+    {
+      "path": "data/BauxiteMed/bauxitemed.dat",
+      "sha256_current": "42fcec7bb271229317e6d0bd01d9263bb1ef53c30835ecda203e3881391988d7"
+    },
+    {
+      "path": "data/BauxiteMed/cucase.dat",
+      "sha256_current": "426fc3ec2e4294df90e9f431a0e4195b292cff76c2b5dd090efbf3dc547b3586"
+    }
+  ],
+  "visualization_pit": {
+    "path": "results/bauxitemed_baseline_pit.npy",
+    "sha256_current": "774ab588dab557f909afd5e95eec96ddfae1e14765bf487574a929b3ef04a5fb",
+    "selected_blocks": 73419,
+    "npv": 29690715.0,
+    "matches_exact_global_result": true
+  },
+  "source_run_artifacts": [
+    "results/experiment_boundary_refinement_bauxitemed_spatial.json",
+    "results/experiment_boundary_refinement_cucase.json",
+    "results/experiment_e_hybrid_v4_1_bauxitemed.json",
+    "results/global_solver_benchmark_bauxitemed.json",
+    "results/global_solver_benchmark_cucase.json"
+  ]
+}

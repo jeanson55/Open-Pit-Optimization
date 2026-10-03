@@ -1,0 +1,5 @@
+dataset,sample_id,side,x0,y0,region_group,node_count,arc_count,arcs_per_node,mean_in_degree,mean_out_degree,max_out_degree,out_degree_cv,positive_value_fraction,negative_value_fraction,value_mean,value_std,absolute_value_sum,near_zero_value_fraction,lg_runtime_s,hpf_runtime_s,lg_npv,hpf_npv,lg_timed_out,objective_delta_lg_minus_hpf,fastest_solver
+sim2d76,side8_0,8,0,0,0,8,0,0.0,0.0,0.0,0,0.0,0.0,1.0,-810.875,29.951784170563194,6487.0,0.0,0.00010782400022435468,0.0009683529997346341,0.0,0.0,False,0.0,LG
+sim2d76,side8_1,8,51,0,0,8,0,0.0,0.0,0.0,0,0.0,0.0,1.0,-529.625,190.8762278938894,4237.0,0.0,6.722199941577855e-05,0.0007212509999590111,0.0,0.0,False,0.0,LG
+sim2d76,side12_0,12,21,0,0,12,0,0.0,0.0,0.0,0,0.0,0.0,1.0,-450.5,135.51967876782078,5406.0,0.0,6.465400019806111e-05,0.0006847570002719294,0.0,0.0,False,0.0,LG
+sim2d76,side12_1,12,63,0,2,12,0,0.0,0.0,0.0,0,0.0,0.0,1.0,-812.9166666666666,16.928567242649006,9755.0,0.0,6.334299996524351e-05,0.0006519529997603968,0.0,0.0,False,0.0,LG

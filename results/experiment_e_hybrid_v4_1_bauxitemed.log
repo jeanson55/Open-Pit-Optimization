@@ -1,0 +1,6 @@
+The gPit will be save all logs in defautl directory
+Graph loaded: 240,502 nodes, 1,371,000 edges
+bench_spatial: balance=1.557, cut=18,800/1,130,500 (1.663%), initial violations=878, repair additions=3,864, final NPV=28,610,119.00, local solve=126.5s, repair=0.5s
+  Hybrid V4.1 spatial-graph refinement: cut 18,800 -> 18,800; moved=0; balance(max/mean) 1.557 -> 1.557
+hybrid_spatial_graph_v4_1: balance=1.557, cut=18,800/1,130,500 (1.663%), initial violations=878, repair additions=3,864, final NPV=28,610,119.00, local solve=126.5s, repair=0.5s
+Wrote results/experiment_e_hybrid_v4_1_bauxitemed.json

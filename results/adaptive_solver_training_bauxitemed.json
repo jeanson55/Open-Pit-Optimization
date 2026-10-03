@@ -1,0 +1,22 @@
+{
+  "dataset": "bauxitemed",
+  "dimensions": [
+    120,
+    120,
+    26
+  ],
+  "samples": 1,
+  "sample_sizes": [
+    16
+  ],
+  "samples_skipped_above_lg_limit": 0,
+  "lg_sample_node_limit": 25000,
+  "labels": {
+    "LG": 1
+  },
+  "mean_absolute_objective_delta": 0.0,
+  "csv": "/mnt/c/Users/UMaT/Desktop/python/Machine Learning/LG-Pseudoflow Opt/Pit_Optimization/results/adaptive_solver_crossover_bauxitemed.csv",
+  "ml_model": null,
+  "scope_warning": "single-model spatial-patch pilot; not an independent validation set",
+  "ml_status": "not fitted: need at least 12 samples and both solver labels"
+}

@@ -1,0 +1,106 @@
+{
+  "datasets": [
+    "bauxitemed",
+    "cucase",
+    "cupipe",
+    "mclaughlingeo",
+    "sim2d76"
+  ],
+  "dataset_count": 5,
+  "sample_count": 99,
+  "label_counts": {
+    "LG": 91,
+    "HPF": 8
+  },
+  "leave_one_dataset_out_accuracy": 0.898989898989899,
+  "per_dataset_holdout": {
+    "bauxitemed": {
+      "samples": 19,
+      "accuracy": 0.7894736842105263,
+      "true_labels": {
+        "LG": 15,
+        "HPF": 4
+      },
+      "predicted_labels": {
+        "LG": 15,
+        "HPF": 4
+      }
+    },
+    "cucase": {
+      "samples": 21,
+      "accuracy": 0.9047619047619048,
+      "true_labels": {
+        "LG": 19,
+        "HPF": 2
+      },
+      "predicted_labels": {
+        "LG": 21
+      }
+    },
+    "cupipe": {
+      "samples": 19,
+      "accuracy": 1.0,
+      "true_labels": {
+        "LG": 18,
+        "HPF": 1
+      },
+      "predicted_labels": {
+        "LG": 18,
+        "HPF": 1
+      }
+    },
+    "mclaughlingeo": {
+      "samples": 18,
+      "accuracy": 0.8888888888888888,
+      "true_labels": {
+        "LG": 17,
+        "HPF": 1
+      },
+      "predicted_labels": {
+        "LG": 17,
+        "HPF": 1
+      }
+    },
+    "sim2d76": {
+      "samples": 22,
+      "accuracy": 0.9090909090909091,
+      "true_labels": {
+        "LG": 22
+      },
+      "predicted_labels": {
+        "LG": 20,
+        "HPF": 2
+      }
+    }
+  },
+  "decision_tree_leave_one_dataset_out_accuracy": 0.7575757575757576,
+  "decision_tree_balanced_accuracy": 0.4690934065934066,
+  "always_lg_baseline_accuracy": 0.9191919191919192,
+  "always_lg_baseline_balanced_accuracy": 0.5,
+  "leave_one_dataset_out_balanced_accuracy": 0.6600274725274725,
+  "leave_one_dataset_out_macro_f1": 0.6600274725274725,
+  "features": [
+    "node_count",
+    "arc_count",
+    "arcs_per_node",
+    "mean_in_degree",
+    "mean_out_degree",
+    "max_out_degree",
+    "out_degree_cv",
+    "positive_value_fraction",
+    "negative_value_fraction",
+    "value_mean",
+    "value_std",
+    "absolute_value_sum",
+    "near_zero_value_fraction"
+  ],
+  "classes": [
+    "HPF",
+    "LG"
+  ],
+  "model": "/mnt/c/Users/UMaT/Desktop/python/Machine Learning/LG-Pseudoflow Opt/Pit_Optimization/results/solver_selector_multidataset.joblib",
+  "model_type": "two random-forest log-runtime regressors; choose the lower predicted time",
+  "timed_out_lg_samples": 3,
+  "timed_out_lg_interpretation": "timeouts are lower bounds on LG runtime; exact runtime is not observed",
+  "limitation": "patches are spatial samples from five benchmark models; no industrial-site dataset is included"
+}

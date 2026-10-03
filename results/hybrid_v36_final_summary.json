@@ -1,0 +1,174 @@
+[
+  {
+    "dataset": "bauxitemed",
+    "selected_method": "Spatial",
+    "final_npv": 28652908.0,
+    "final_violations": 0,
+    "total_runtime_s": 36.23341607100156,
+    "partition_runtime_s": 14.00541042900295,
+    "ranked_candidates": [
+      {
+        "method": "Spatial",
+        "score": 0.6576464705233218,
+        "ml_probability": 0.5191161763083044,
+        "score_components": {
+          "ml_probability": 0.5191161763083044,
+          "economic_quality": 1.0,
+          "balance_quality": 0.0,
+          "cut_quality": 1.0
+        },
+        "cut_arcs": 17450,
+        "cut_fraction": 0.015435647943387882,
+        "balance_ratio": 2.353846153846154,
+        "boundary_nodes": 17952,
+        "boundary_abs_value_fraction": 0.07990856207365576
+      },
+      {
+        "method": "METIS",
+        "score": 0.34910891291885693,
+        "ml_probability": 0.4977722822971423,
+        "score_components": {
+          "ml_probability": 0.4977722822971423,
+          "economic_quality": 0.0,
+          "balance_quality": 1.0,
+          "cut_quality": 0.0
+        },
+        "cut_arcs": 21404,
+        "cut_fraction": 0.018933215391419726,
+        "balance_ratio": 1.000033264586521,
+        "boundary_nodes": 19973,
+        "boundary_abs_value_fraction": 0.09097824774961259
+      }
+    ],
+    "result_file": "results/adaptive_bauxitemed_hybrid_v36_add.json"
+  },
+  {
+    "dataset": "cucase",
+    "selected_method": "Spatial",
+    "final_npv": 19359730.0,
+    "final_violations": 0,
+    "total_runtime_s": 165.82813566000186,
+    "partition_runtime_s": 59.578791954001645,
+    "ranked_candidates": [
+      {
+        "method": "Spatial",
+        "score": 0.6436820093505973,
+        "ml_probability": 0.48420502337649307,
+        "score_components": {
+          "ml_probability": 0.48420502337649307,
+          "economic_quality": 1.0,
+          "balance_quality": 0.0,
+          "cut_quality": 1.0
+        },
+        "cut_arcs": 51254,
+        "cut_fraction": 0.010155339805825243,
+        "balance_ratio": 2.5182648401826486,
+        "boundary_nodes": 51936,
+        "boundary_abs_value_fraction": 0.06394932385658651
+      },
+      {
+        "method": "METIS",
+        "score": 0.34111490758953694,
+        "ml_probability": 0.4777872689738423,
+        "score_components": {
+          "ml_probability": 0.4777872689738423,
+          "economic_quality": 0.0,
+          "balance_quality": 1.0,
+          "cut_quality": 0.0
+        },
+        "cut_arcs": 61266,
+        "cut_fraction": 0.01213909253021597,
+        "balance_ratio": 1.0000076485930414,
+        "boundary_nodes": 55456,
+        "boundary_abs_value_fraction": 0.06796301795148922
+      }
+    ],
+    "result_file": "results/adaptive_cucase_hybrid_v36_add.json"
+  },
+  {
+    "dataset": "cupipe",
+    "selected_method": "Spatial",
+    "final_npv": 57815484.0,
+    "final_violations": 0,
+    "total_runtime_s": 184.97754204100056,
+    "partition_runtime_s": 58.21243597799912,
+    "ranked_candidates": [
+      {
+        "method": "Spatial",
+        "score": 0.6127394895299239,
+        "ml_probability": 0.4068487238248095,
+        "score_components": {
+          "ml_probability": 0.4068487238248095,
+          "economic_quality": 1.0,
+          "balance_quality": 0.0,
+          "cut_quality": 1.0
+        },
+        "cut_arcs": 53340,
+        "cut_fraction": 0.01116319953120422,
+        "balance_ratio": 3.4358488009754775,
+        "boundary_nodes": 53802,
+        "boundary_abs_value_fraction": 0.03690712129916915
+      },
+      {
+        "method": "METIS",
+        "score": 0.3708196268063269,
+        "ml_probability": 0.5520490670158172,
+        "score_components": {
+          "ml_probability": 0.5520490670158172,
+          "economic_quality": 0.0,
+          "balance_quality": 1.0,
+          "cut_quality": 0.0
+        },
+        "cut_arcs": 72504,
+        "cut_fraction": 0.015173914863337658,
+        "balance_ratio": 1.0,
+        "boundary_nodes": 61332,
+        "boundary_abs_value_fraction": 0.07192112943216186
+      }
+    ],
+    "result_file": "results/adaptive_cupipe_hybrid_v36_add.json"
+  },
+  {
+    "dataset": "mclaughlingeo",
+    "selected_method": "Spatial",
+    "final_npv": 1179217403.0,
+    "final_violations": 0,
+    "total_runtime_s": 222.05046913000115,
+    "partition_runtime_s": 77.13144641300096,
+    "ranked_candidates": [
+      {
+        "method": "Spatial",
+        "score": 0.6536997455674787,
+        "ml_probability": 0.5092493639186968,
+        "score_components": {
+          "ml_probability": 0.5092493639186968,
+          "economic_quality": 1.0,
+          "balance_quality": 0.0,
+          "cut_quality": 1.0
+        },
+        "cut_arcs": 58518,
+        "cut_fraction": 0.009752154813249519,
+        "balance_ratio": 3.0003390692548955,
+        "boundary_nodes": 59385,
+        "boundary_abs_value_fraction": 0.04424344193711736
+      },
+      {
+        "method": "METIS",
+        "score": 0.3711905043261643,
+        "ml_probability": 0.5529762608154106,
+        "score_components": {
+          "ml_probability": 0.5529762608154106,
+          "economic_quality": 0.0,
+          "balance_quality": 1.0,
+          "cut_quality": 0.0
+        },
+        "cut_arcs": 69423,
+        "cut_fraction": 0.011569497310233113,
+        "balance_ratio": 1.0,
+        "boundary_nodes": 63935,
+        "boundary_abs_value_fraction": 0.06296394337377008
+      }
+    ],
+    "result_file": "results/adaptive_mclaughlingeo_hybrid_v36_add.json"
+  }
+]

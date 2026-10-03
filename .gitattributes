@@ -1,0 +1,17 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.log text eol=lf
+*.txt text eol=lf
+*.svg text eol=lf
+*.xml text eol=lf
+*.vtp text eol=lf
+*.vti text eol=lf
+*.dat text eol=lf
+*.png binary
+*.npy binary
+*.npz binary
+*.pkl binary
+*.joblib binary

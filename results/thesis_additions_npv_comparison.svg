@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="500" viewBox="0 0 1060 500">
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,sans-serif;fill:#1f2937}.title{font-size:23px;font-weight:700}.sub{font-size:13px;fill:#4b5563}.label{font-size:15px;font-weight:600}.small{font-size:13px}.axis{stroke:#9ca3af;stroke-width:1}.exact{fill:#2563eb}.part{fill:#f59e0b}</style>
+<text x="34" y="40" class="title">Partitioned solutions against exact global references</text>
+<text x="34" y="64" class="sub">Boundary-refined feasible NPV; bars are normalized within each deposit</text>
+<rect x="710" y="78" width="13" height="13" class="exact"/><text x="731" y="89" class="small">Global HPF exact reference</text>
+<rect x="710" y="100" width="13" height="13" class="part"/><text x="731" y="111" class="small">Partition + boundary refinement</text>
+<text x="34" y="166" class="label">bauxitemed</text>
+<text x="34" y="192" class="small">240,502 nodes · spatial, 9 parts</text>
+<rect x="300" y="152" width="600" height="30" rx="4" class="exact"/>
+<text x="912" y="172" class="small">$29.691M · 0 violations</text>
+<rect x="300" y="192" width="582.10" height="30" rx="4" class="part"/>
+<text x="894.10" y="213" class="small">$28.805M · 0 violations</text>
+<text x="300" y="247" class="small">Initial violations 1,691 → 0; 1,665 clusters; cascade 25 levels; boundary gain $194.6k in 7.4s; gap -2.98%</text>
+<text x="34" y="321" class="label">cucase</text>
+<text x="34" y="347" class="small">1,045,952 nodes · metis, 9 parts</text>
+<rect x="300" y="307" width="600" height="30" rx="4" class="exact"/>
+<text x="912" y="327" class="small">$19.444M · 0 violations</text>
+<rect x="300" y="347" width="589.37" height="30" rx="4" class="part"/>
+<text x="901.37" y="368" class="small">$19.100M · 0 violations</text>
+<text x="300" y="402" class="small">Initial violations 4,197 → 0; 2,916 clusters; cascade 26 levels; boundary gain $74.0k in 22.1s; gap -1.77%</text>
+<line x1="300" y1="450" x2="900" y2="450" class="axis"/>
+<text x="300" y="474" class="small">0</text>
+<text x="800" y="474" class="small">100% of exact NPV</text>
+<text x="34" y="492" class="sub">Recorded project JSON results; runtimes should not be compared across machines.</text>
+</svg>

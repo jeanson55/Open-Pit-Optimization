@@ -1,0 +1,268 @@
+{
+  "policy": "heuristic",
+  "partitions": [
+    {
+      "partition": 0,
+      "solver": "HPF",
+      "features": {
+        "node_count": 87600,
+        "arc_count": 413609,
+        "arcs_per_node": 4.7215639269406395,
+        "mean_in_degree": 4.7215639269406395,
+        "mean_out_degree": 4.7215639269406395,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.22603658775658345,
+        "positive_value_fraction": 9.132420091324201e-05,
+        "negative_value_fraction": 0.2273972602739726,
+        "value_mean": -52.881986301369864,
+        "value_std": 97.77767449599403,
+        "absolute_value_sum": 4637748.0,
+        "near_zero_value_fraction": 0.7725114155251142
+      },
+      "local_solve_runtime_s": 7.193066043997533,
+      "local_blocks": 9251,
+      "local_npv": 384.0
+    },
+    {
+      "partition": 1,
+      "solver": "HPF",
+      "features": {
+        "node_count": 133000,
+        "arc_count": 637490,
+        "arcs_per_node": 4.793157894736842,
+        "mean_in_degree": 4.793157894736842,
+        "mean_out_degree": 4.793157894736842,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.1832922633839544,
+        "positive_value_fraction": 0.03326315789473684,
+        "negative_value_fraction": 0.3471278195488722,
+        "value_mean": -69.46,
+        "value_std": 144.44242652507305,
+        "absolute_value_sum": 12054380.0,
+        "near_zero_value_fraction": 0.6196090225563909
+      },
+      "local_solve_runtime_s": 11.162137818999327,
+      "local_blocks": 57712,
+      "local_npv": 335800.0
+    },
+    {
+      "partition": 2,
+      "solver": "HPF",
+      "features": {
+        "node_count": 87600,
+        "arc_count": 413609,
+        "arcs_per_node": 4.7215639269406395,
+        "mean_in_degree": 4.7215639269406395,
+        "mean_out_degree": 4.7215639269406395,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.22603658775658345,
+        "positive_value_fraction": 0.01617579908675799,
+        "negative_value_fraction": 0.1825799086757991,
+        "value_mean": -37.43512557077626,
+        "value_std": 101.21164538318428,
+        "absolute_value_sum": 4015655.0,
+        "near_zero_value_fraction": 0.8012442922374429
+      },
+      "local_solve_runtime_s": 16.100929111002188,
+      "local_blocks": 19229,
+      "local_npv": 23951.0
+    },
+    {
+      "partition": 3,
+      "solver": "HPF",
+      "features": {
+        "node_count": 115375,
+        "arc_count": 550025,
+        "arcs_per_node": 4.767280606717226,
+        "mean_in_degree": 4.767280606717226,
+        "mean_out_degree": 4.767280606717226,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.19697627692270006,
+        "positive_value_fraction": 0.0022101841820151677,
+        "negative_value_fraction": 0.4248927410617551,
+        "value_mean": -98.90157313109425,
+        "value_std": 117.28623793989205,
+        "absolute_value_sum": 11505535.0,
+        "near_zero_value_fraction": 0.5728970747562296
+      },
+      "local_solve_runtime_s": 9.17166646500118,
+      "local_blocks": 11866,
+      "local_npv": 1954.0
+    },
+    {
+      "partition": 4,
+      "solver": "HPF",
+      "features": {
+        "node_count": 198800,
+        "arc_count": 961674,
+        "arcs_per_node": 4.837394366197183,
+        "mean_in_degree": 4.837394366197183,
+        "mean_out_degree": 4.837394366197183,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.15164736929663025,
+        "positive_value_fraction": 0.10376760563380281,
+        "negative_value_fraction": 0.5241448692152918,
+        "value_mean": -21.44267605633803,
+        "value_std": 485.90776899893547,
+        "absolute_value_sum": 45200840.0,
+        "near_zero_value_fraction": 0.37208752515090543
+      },
+      "local_solve_runtime_s": 24.574132639998425,
+      "local_blocks": 107198,
+      "local_npv": 15788246.0
+    },
+    {
+      "partition": 5,
+      "solver": "HPF",
+      "features": {
+        "node_count": 115375,
+        "arc_count": 550025,
+        "arcs_per_node": 4.767280606717226,
+        "mean_in_degree": 4.767280606717226,
+        "mean_out_degree": 4.767280606717226,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.19697627692270003,
+        "positive_value_fraction": 0.05810617551462622,
+        "negative_value_fraction": 0.2603596966413868,
+        "value_mean": -20.144312026002165,
+        "value_std": 284.3093388203297,
+        "absolute_value_sum": 11521760.0,
+        "near_zero_value_fraction": 0.681534127843987
+      },
+      "local_solve_runtime_s": 16.544954248001886,
+      "local_blocks": 67974,
+      "local_npv": 3360054.0
+    },
+    {
+      "partition": 6,
+      "solver": "HPF",
+      "features": {
+        "node_count": 87600,
+        "arc_count": 413609,
+        "arcs_per_node": 4.7215639269406395,
+        "mean_in_degree": 4.7215639269406395,
+        "mean_out_degree": 4.7215639269406395,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.22603658775658345,
+        "positive_value_fraction": 0.002317351598173516,
+        "negative_value_fraction": 0.18952054794520548,
+        "value_mean": -42.27810502283105,
+        "value_std": 89.66097477343364,
+        "absolute_value_sum": 3776166.0,
+        "near_zero_value_fraction": 0.808162100456621
+      },
+      "local_solve_runtime_s": 7.012878437999461,
+      "local_blocks": 7606,
+      "local_npv": 942.0
+    },
+    {
+      "partition": 7,
+      "solver": "HPF",
+      "features": {
+        "node_count": 220600,
+        "arc_count": 1055705,
+        "arcs_per_node": 4.785607434270172,
+        "mean_in_degree": 4.785607434270172,
+        "mean_out_degree": 4.785607434270172,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.19895102741412596,
+        "positive_value_fraction": 0.0024932003626473255,
+        "negative_value_fraction": 0.26176337262012694,
+        "value_mean": -59.132742520398914,
+        "value_std": 104.34559697414689,
+        "absolute_value_sum": 13340343.0,
+        "near_zero_value_fraction": 0.7357434270172257
+      },
+      "local_solve_runtime_s": 25.66219002700018,
+      "local_blocks": 37278,
+      "local_npv": 1992.0
+    }
+  ],
+  "solver_counts": {
+    "LG": 0,
+    "HPF": 8
+  },
+  "local_solve_runtime_s": 117.42195479200018,
+  "total_runtime_s": 165.82813566000186,
+  "initial_blocks_mined": 318114,
+  "initial_npv": 19513323.0,
+  "initial_violations": 2309,
+  "refinement_runtime_s": 2.101391774001968,
+  "final_blocks_mined": 329174,
+  "final_violations": 0,
+  "final_npv": 19359730.0,
+  "repair_mode": "add",
+  "refinement": "add",
+  "cascade_added_blocks": 11060,
+  "cascade_removed_blocks": 0,
+  "cascade_depth": 34,
+  "violation_cluster_count": 2260,
+  "largest_violation_cluster_nodes": 4,
+  "largest_violation_cluster_arcs": 4,
+  "violation_cluster_arcs_top10": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    2,
+    2
+  ],
+  "partition_method": "hybrid_v36",
+  "partition_runtime_s": 59.578791954001645,
+  "partitions_requested": 8,
+  "dataset": "cucase",
+  "dimensions": [
+    170,
+    215,
+    50
+  ],
+  "precedence_template": "1x5",
+  "boundary_refinement_strategy": "add",
+  "hybrid_v36_selection": {
+    "selected_method": "Spatial",
+    "score_weights": {
+      "ml_probability": 0.4,
+      "economic_quality": 0.3,
+      "balance_quality": 0.15,
+      "cut_quality": 0.15
+    },
+    "ranked_candidates": [
+      {
+        "method": "Spatial",
+        "score": 0.6436820093505973,
+        "ml_probability": 0.48420502337649307,
+        "score_components": {
+          "ml_probability": 0.48420502337649307,
+          "economic_quality": 1.0,
+          "balance_quality": 0.0,
+          "cut_quality": 1.0
+        },
+        "cut_arcs": 51254,
+        "cut_fraction": 0.010155339805825243,
+        "balance_ratio": 2.5182648401826486,
+        "boundary_nodes": 51936,
+        "boundary_abs_value_fraction": 0.06394932385658651
+      },
+      {
+        "method": "METIS",
+        "score": 0.34111490758953694,
+        "ml_probability": 0.4777872689738423,
+        "score_components": {
+          "ml_probability": 0.4777872689738423,
+          "economic_quality": 0.0,
+          "balance_quality": 1.0,
+          "cut_quality": 0.0
+        },
+        "cut_arcs": 61266,
+        "cut_fraction": 0.01213909253021597,
+        "balance_ratio": 1.0000076485930414,
+        "boundary_nodes": 55456,
+        "boundary_abs_value_fraction": 0.06796301795148922
+      }
+    ]
+  }
+}

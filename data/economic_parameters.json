@@ -1,0 +1,9 @@
+{
+  "commodity_price_per_t": 32.0,
+  "recovery": 0.88,
+  "mining_cost_per_t": 2.4,
+  "processing_cost_per_t": 3.1,
+  "discount_rate": 0.1,
+  "block_tonnage_t": 2080.0,
+  "slope_degrees": 45.0
+}

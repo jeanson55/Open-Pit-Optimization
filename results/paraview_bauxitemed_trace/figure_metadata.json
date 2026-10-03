@@ -1,0 +1,34 @@
+{
+  "dataset": "bauxitemed",
+  "trace": "bauxitemed_adaptive_trace.npz",
+  "blocks": 240500,
+  "dimensions": [
+    120,
+    120,
+    26
+  ],
+  "partition_method": "METIS",
+  "partition_count": 9,
+  "local_selected": 71831,
+  "repaired_selected": 85784,
+  "final_selected": 83800,
+  "initial_violations": 3137,
+  "repair_additions": 13953,
+  "max_repair_level": 25,
+  "boundary_members": 32853,
+  "boundary_added": 2,
+  "boundary_removed": 1986,
+  "initial_npv": 31801369.0,
+  "final_npv": 26556907.0,
+  "warning": "This adaptive trace is a separate run from the nine-way Experiment E and the exact global pit. Do not combine its NPV with those experiments.",
+  "figures": [
+    "bauxitemed_full_block_model_by_partition.png",
+    "bauxitemed_full_block_model_isometric.png",
+    "bauxitemed_trace_stages.png",
+    "bauxitemed_final_pit_by_partition.png",
+    "bauxitemed_repair_cascade.png",
+    "bauxitemed_initial_violations.png",
+    "bauxitemed_boundary_changes.png",
+    "bauxitemed_final_pit_isometric_blocks.png"
+  ]
+}

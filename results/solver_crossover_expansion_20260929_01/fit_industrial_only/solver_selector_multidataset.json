@@ -1,0 +1,106 @@
+{
+  "datasets": [
+    "bauxitemed",
+    "cucase",
+    "cupipe",
+    "mclaughlingeo"
+  ],
+  "dataset_count": 4,
+  "sample_count": 125,
+  "label_counts": {
+    "LG": 108,
+    "HPF": 17
+  },
+  "leave_one_dataset_out_accuracy": 0.848,
+  "per_dataset_holdout": {
+    "bauxitemed": {
+      "samples": 31,
+      "accuracy": 0.7096774193548387,
+      "true_labels": {
+        "LG": 23,
+        "HPF": 8
+      },
+      "predicted_labels": {
+        "LG": 24,
+        "HPF": 7
+      }
+    },
+    "cucase": {
+      "samples": 33,
+      "accuracy": 0.8484848484848485,
+      "true_labels": {
+        "LG": 28,
+        "HPF": 5
+      },
+      "predicted_labels": {
+        "LG": 33
+      }
+    },
+    "cupipe": {
+      "samples": 31,
+      "accuracy": 0.967741935483871,
+      "true_labels": {
+        "LG": 30,
+        "HPF": 1
+      },
+      "predicted_labels": {
+        "LG": 31
+      }
+    },
+    "mclaughlingeo": {
+      "samples": 30,
+      "accuracy": 0.8666666666666667,
+      "true_labels": {
+        "LG": 27,
+        "HPF": 3
+      },
+      "predicted_labels": {
+        "LG": 29,
+        "HPF": 1
+      }
+    }
+  },
+  "decision_tree_leave_one_dataset_out_accuracy": 0.904,
+  "decision_tree_balanced_accuracy": 0.7709694989106755,
+  "always_lg_baseline_accuracy": 0.864,
+  "always_lg_baseline_balanced_accuracy": 0.5,
+  "leave_one_dataset_out_balanced_accuracy": 0.5650871459694989,
+  "leave_one_dataset_out_macro_f1": 0.5777777777777777,
+  "leave_one_dataset_out_selected_runtime_sum_s": 72.01678481202453,
+  "decision_tree_selected_runtime_sum_s": 38.66905404901672,
+  "always_lg_observed_runtime_sum_s": 72.34997410702454,
+  "always_hpf_observed_runtime_sum_s": 26.15685874299151,
+  "oracle_observed_runtime_sum_s": 4.091926974016582,
+  "runtime_speedup_vs_always_lg": 1.0046265505447054,
+  "runtime_speedup_vs_always_hpf": 0.36320503353857225,
+  "decision_tree_runtime_speedup_vs_always_lg": 1.871004499238953,
+  "decision_tree_runtime_speedup_vs_always_hpf": 0.6764287202328557,
+  "mean_relative_runtime_regret_vs_observed_oracle": 4.081941874069683,
+  "timed_out_lg_selected_count": 11,
+  "runtime_comparison_caveat": "LG timeout durations are lower bounds; runtime totals and regret are optimistic if a held-out prediction selects a timed-out LG sample.",
+  "features": [
+    "node_count",
+    "arc_count",
+    "arcs_per_node",
+    "mean_in_degree",
+    "mean_out_degree",
+    "max_out_degree",
+    "out_degree_cv",
+    "positive_value_fraction",
+    "negative_value_fraction",
+    "value_mean",
+    "value_std",
+    "absolute_value_sum",
+    "near_zero_value_fraction"
+  ],
+  "classes": [
+    "HPF",
+    "LG"
+  ],
+  "model": "/mnt/c/Users/UMaT/Desktop/python/Machine Learning/LG-Pseudoflow Opt/Pit_Optimization/results/solver_crossover_expansion_20260929_01/fit_industrial_only/solver_selector_multidataset.joblib",
+  "model_type": "two random-forest log-runtime regressors; choose the lower predicted time",
+  "timed_out_lg_samples": 11,
+  "lg_regression_timeout_handling": "censored timeout rows are excluded from LG runtime regression and retained in faster-solver labels",
+  "timed_out_lg_interpretation": "timeouts are lower bounds on LG runtime; exact runtime is not observed",
+  "limitation": "patches are spatial samples from five benchmark models; no industrial-site dataset is included"
+}

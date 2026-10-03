@@ -1,0 +1,152 @@
+{
+  "version": "3.6",
+  "dataset_count": 4,
+  "candidate_count": 8,
+  "n_partitions": 8,
+  "features": [
+    "log_graph_nodes",
+    "log_precedence_arcs",
+    "partition_count",
+    "is_metis",
+    "cut_fraction",
+    "balance_ratio",
+    "minimum_part_fraction",
+    "maximum_part_fraction",
+    "boundary_abs_value_fraction",
+    "boundary_positive_value_fraction",
+    "boundary_negative_value_fraction"
+  ],
+  "score_weights": {
+    "ml_probability": 0.4,
+    "economic_quality": 0.3,
+    "balance_quality": 0.15,
+    "cut_quality": 0.15
+  },
+  "label_definition": "method(s) with the highest observed NPV among Spatial and METIS",
+  "validation": "leave-one-dataset-out; rank the two candidates in each held-out model",
+  "composite_selection_accuracy": 0.5,
+  "ml_only_selection_accuracy": 0.0,
+  "always_spatial_selection_accuracy": 0.5,
+  "always_metis_selection_accuracy": 0.5,
+  "holdout_results": [
+    {
+      "dataset": "bauxitemed",
+      "selected_method": "Spatial",
+      "ml_only_method": "METIS",
+      "observed_best_methods": [
+        "Spatial"
+      ],
+      "selected_correct": true,
+      "ml_only_correct": false,
+      "ranked": [
+        {
+          "method": "Spatial",
+          "score": 0.6369342731394166,
+          "ml_probability": 0.4673356828485416,
+          "economic_quality": 1.0,
+          "balance_quality": 0.0,
+          "cut_quality": 1.0
+        },
+        {
+          "method": "METIS",
+          "score": 0.4292637011500544,
+          "ml_probability": 0.698159252875136,
+          "economic_quality": 0.0,
+          "balance_quality": 1.0,
+          "cut_quality": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "cucase",
+      "selected_method": "Spatial",
+      "ml_only_method": "Spatial",
+      "observed_best_methods": [
+        "METIS"
+      ],
+      "selected_correct": false,
+      "ml_only_correct": false,
+      "ranked": [
+        {
+          "method": "Spatial",
+          "score": 0.6841895100689177,
+          "ml_probability": 0.5854737751722942,
+          "economic_quality": 1.0,
+          "balance_quality": 0.0,
+          "cut_quality": 1.0
+        },
+        {
+          "method": "METIS",
+          "score": 0.2947149932787595,
+          "ml_probability": 0.36178748319689874,
+          "economic_quality": 0.0,
+          "balance_quality": 1.0,
+          "cut_quality": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "cupipe",
+      "selected_method": "Spatial",
+      "ml_only_method": "Spatial",
+      "observed_best_methods": [
+        "METIS"
+      ],
+      "selected_correct": false,
+      "ml_only_correct": false,
+      "ranked": [
+        {
+          "method": "Spatial",
+          "score": 0.7681803902416937,
+          "ml_probability": 0.7954509756042342,
+          "economic_quality": 1.0,
+          "balance_quality": 0.0,
+          "cut_quality": 1.0
+        },
+        {
+          "method": "METIS",
+          "score": 0.28840925131896333,
+          "ml_probability": 0.3460231282974083,
+          "economic_quality": 0.0,
+          "balance_quality": 1.0,
+          "cut_quality": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "mclaughlingeo",
+      "selected_method": "Spatial",
+      "ml_only_method": "METIS",
+      "observed_best_methods": [
+        "Spatial"
+      ],
+      "selected_correct": true,
+      "ml_only_correct": false,
+      "ranked": [
+        {
+          "method": "Spatial",
+          "score": 0.6167180011682252,
+          "ml_probability": 0.4167950029205629,
+          "economic_quality": 1.0,
+          "balance_quality": 0.0,
+          "cut_quality": 1.0
+        },
+        {
+          "method": "METIS",
+          "score": 0.44966305418849695,
+          "ml_probability": 0.7491576354712425,
+          "economic_quality": 0.0,
+          "balance_quality": 1.0,
+          "cut_quality": 0.0
+        }
+      ]
+    }
+  ],
+  "training_csv": "/mnt/c/Users/UMaT/Desktop/python/Machine Learning/LG-Pseudoflow Opt/Pit_Optimization/results/hybrid_v36_training_data.csv",
+  "model": "/mnt/c/Users/UMaT/Desktop/python/Machine Learning/LG-Pseudoflow Opt/Pit_Optimization/results/hybrid_v36_selector.pkl",
+  "limitations": [
+    "Only four independent block models are available for grouped validation.",
+    "Historical labels come from saved NPV outcomes; candidate metrics are recomputed from current spatial/METIS partitions.",
+    "The validation supports a pilot comparison, not generalization to new deposits."
+  ]
+}

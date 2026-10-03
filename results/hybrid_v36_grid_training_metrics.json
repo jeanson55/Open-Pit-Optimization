@@ -1,0 +1,432 @@
+{
+  "version": "3.6-grid-pilot",
+  "dataset_count": 4,
+  "independent_dataset_groups": 4,
+  "partition_counts": [
+    4,
+    8,
+    12
+  ],
+  "paired_settings": 12,
+  "candidate_count": 24,
+  "features": [
+    "log_graph_nodes",
+    "log_precedence_arcs",
+    "partition_count",
+    "is_metis",
+    "cut_fraction",
+    "balance_ratio",
+    "minimum_part_fraction",
+    "maximum_part_fraction",
+    "boundary_abs_value_fraction",
+    "boundary_positive_value_fraction",
+    "boundary_negative_value_fraction"
+  ],
+  "score_weights": {
+    "ml_probability": 0.4,
+    "economic_quality": 0.3,
+    "balance_quality": 0.15,
+    "cut_quality": 0.15
+  },
+  "validation": "leave-one-dataset-out across matched method pairs at each partition count",
+  "composite_selection_accuracy": 0.5833333333333334,
+  "ml_only_selection_accuracy": 0.6666666666666666,
+  "always_spatial_selection_accuracy": 0.6666666666666666,
+  "always_metis_selection_accuracy": 0.3333333333333333,
+  "mean_selected_relative_npv_regret": 0.03890134284743962,
+  "mean_spatial_relative_npv_regret": 0.0019796312423685258,
+  "mean_metis_relative_npv_regret": 0.06981046670147396,
+  "holdout_results": [
+    {
+      "dataset": "bauxitemed",
+      "partitions": 4,
+      "selected_method": "METIS",
+      "ml_only_method": "Spatial",
+      "observed_best_methods": [
+        "Spatial"
+      ],
+      "selected_correct": false,
+      "ml_only_correct": true,
+      "selected_relative_npv_regret": 0.003681938556579486,
+      "spatial_relative_npv_regret": 0.0,
+      "metis_relative_npv_regret": 0.003681938556579486,
+      "ranked": [
+        {
+          "method": "METIS",
+          "score": 0.664131621602247,
+          "ml_probability": 0.7228290540056177,
+          "economic_quality": 1.0,
+          "balance_quality": 0.5,
+          "cut_quality": 0.0
+        },
+        {
+          "method": "Spatial",
+          "score": 0.5353146717021762,
+          "ml_probability": 0.7757866792554404,
+          "economic_quality": 0.0,
+          "balance_quality": 0.5,
+          "cut_quality": 1.0
+        }
+      ]
+    },
+    {
+      "dataset": "bauxitemed",
+      "partitions": 8,
+      "selected_method": "Spatial",
+      "ml_only_method": "Spatial",
+      "observed_best_methods": [
+        "Spatial"
+      ],
+      "selected_correct": true,
+      "ml_only_correct": true,
+      "selected_relative_npv_regret": 0.0,
+      "spatial_relative_npv_regret": 0.0,
+      "metis_relative_npv_regret": 0.014020810732369642,
+      "ranked": [
+        {
+          "method": "Spatial",
+          "score": 0.741265830813636,
+          "ml_probability": 0.72816457703409,
+          "economic_quality": 1.0,
+          "balance_quality": 0.0,
+          "cut_quality": 1.0
+        },
+        {
+          "method": "METIS",
+          "score": 0.42948560300767546,
+          "ml_probability": 0.6987140075191886,
+          "economic_quality": 0.0,
+          "balance_quality": 1.0,
+          "cut_quality": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "bauxitemed",
+      "partitions": 12,
+      "selected_method": "Spatial",
+      "ml_only_method": "Spatial",
+      "observed_best_methods": [
+        "Spatial"
+      ],
+      "selected_correct": true,
+      "ml_only_correct": true,
+      "selected_relative_npv_regret": 0.0,
+      "spatial_relative_npv_regret": 0.0,
+      "metis_relative_npv_regret": 0.02251295090606166,
+      "ranked": [
+        {
+          "method": "Spatial",
+          "score": 0.7442143241078181,
+          "ml_probability": 0.7355358102695451,
+          "economic_quality": 1.0,
+          "balance_quality": 0.0,
+          "cut_quality": 1.0
+        },
+        {
+          "method": "METIS",
+          "score": 0.4197754377388051,
+          "ml_probability": 0.6744385943470127,
+          "economic_quality": 0.0,
+          "balance_quality": 1.0,
+          "cut_quality": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "cucase",
+      "partitions": 4,
+      "selected_method": "Spatial",
+      "ml_only_method": "Spatial",
+      "observed_best_methods": [
+        "Spatial"
+      ],
+      "selected_correct": true,
+      "ml_only_correct": true,
+      "selected_relative_npv_regret": 0.0,
+      "spatial_relative_npv_regret": 0.0,
+      "metis_relative_npv_regret": 0.0006234371623498904,
+      "ranked": [
+        {
+          "method": "Spatial",
+          "score": 0.7016738007082133,
+          "ml_probability": 0.6291845017705331,
+          "economic_quality": 1.0,
+          "balance_quality": 0.0,
+          "cut_quality": 1.0
+        },
+        {
+          "method": "METIS",
+          "score": 0.2777753353373329,
+          "ml_probability": 0.31943833834333224,
+          "economic_quality": 0.0,
+          "balance_quality": 1.0,
+          "cut_quality": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "cucase",
+      "partitions": 8,
+      "selected_method": "Spatial",
+      "ml_only_method": "Spatial",
+      "observed_best_methods": [
+        "METIS"
+      ],
+      "selected_correct": false,
+      "ml_only_correct": false,
+      "selected_relative_npv_regret": 0.0021218607635441165,
+      "spatial_relative_npv_regret": 0.0021218607635441165,
+      "metis_relative_npv_regret": 0.0,
+      "ranked": [
+        {
+          "method": "Spatial",
+          "score": 0.7328958096291135,
+          "ml_probability": 0.7072395240727837,
+          "economic_quality": 1.0,
+          "balance_quality": 0.0,
+          "cut_quality": 1.0
+        },
+        {
+          "method": "METIS",
+          "score": 0.2602039684304738,
+          "ml_probability": 0.27550992107618444,
+          "economic_quality": 0.0,
+          "balance_quality": 1.0,
+          "cut_quality": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "cucase",
+      "partitions": 12,
+      "selected_method": "Spatial",
+      "ml_only_method": "Spatial",
+      "observed_best_methods": [
+        "METIS"
+      ],
+      "selected_correct": false,
+      "ml_only_correct": false,
+      "selected_relative_npv_regret": 0.0007533028629070872,
+      "spatial_relative_npv_regret": 0.0007533028629070872,
+      "metis_relative_npv_regret": 0.0,
+      "ranked": [
+        {
+          "method": "Spatial",
+          "score": 0.7250842312475736,
+          "ml_probability": 0.687710578118934,
+          "economic_quality": 1.0,
+          "balance_quality": 0.0,
+          "cut_quality": 1.0
+        },
+        {
+          "method": "METIS",
+          "score": 0.2375007311273025,
+          "ml_probability": 0.21875182781825625,
+          "economic_quality": 0.0,
+          "balance_quality": 1.0,
+          "cut_quality": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "cupipe",
+      "partitions": 4,
+      "selected_method": "METIS",
+      "ml_only_method": "Spatial",
+      "observed_best_methods": [
+        "Spatial"
+      ],
+      "selected_correct": false,
+      "ml_only_correct": true,
+      "selected_relative_npv_regret": 0.4434519025960804,
+      "spatial_relative_npv_regret": 0.0,
+      "metis_relative_npv_regret": 0.4434519025960804,
+      "ranked": [
+        {
+          "method": "METIS",
+          "score": 0.4747395064643908,
+          "ml_probability": 0.249348766160977,
+          "economic_quality": 1.0,
+          "balance_quality": 0.5,
+          "cut_quality": 0.0
+        },
+        {
+          "method": "Spatial",
+          "score": 0.32573497191322925,
+          "ml_probability": 0.2518374297830731,
+          "economic_quality": 0.0,
+          "balance_quality": 0.5,
+          "cut_quality": 1.0
+        }
+      ]
+    },
+    {
+      "dataset": "cupipe",
+      "partitions": 8,
+      "selected_method": "Spatial",
+      "ml_only_method": "Spatial",
+      "observed_best_methods": [
+        "METIS"
+      ],
+      "selected_correct": false,
+      "ml_only_correct": false,
+      "selected_relative_npv_regret": 0.016807109390164304,
+      "spatial_relative_npv_regret": 0.016807109390164304,
+      "metis_relative_npv_regret": 0.0,
+      "ranked": [
+        {
+          "method": "Spatial",
+          "score": 0.7731353452176615,
+          "ml_probability": 0.8078383630441536,
+          "economic_quality": 1.0,
+          "balance_quality": 0.0,
+          "cut_quality": 1.0
+        },
+        {
+          "method": "METIS",
+          "score": 0.2827001230629199,
+          "ml_probability": 0.3317503076572998,
+          "economic_quality": 0.0,
+          "balance_quality": 1.0,
+          "cut_quality": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "cupipe",
+      "partitions": 12,
+      "selected_method": "Spatial",
+      "ml_only_method": "Spatial",
+      "observed_best_methods": [
+        "Spatial"
+      ],
+      "selected_correct": true,
+      "ml_only_correct": true,
+      "selected_relative_npv_regret": 0.0,
+      "spatial_relative_npv_regret": 0.0,
+      "metis_relative_npv_regret": 0.33243168534440143,
+      "ranked": [
+        {
+          "method": "Spatial",
+          "score": 0.7183454090013918,
+          "ml_probability": 0.6708635225034795,
+          "economic_quality": 1.0,
+          "balance_quality": 0.0,
+          "cut_quality": 1.0
+        },
+        {
+          "method": "METIS",
+          "score": 0.20142085423017772,
+          "ml_probability": 0.12855213557544432,
+          "economic_quality": 0.0,
+          "balance_quality": 1.0,
+          "cut_quality": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "mclaughlingeo",
+      "partitions": 4,
+      "selected_method": "METIS",
+      "ml_only_method": "Spatial",
+      "observed_best_methods": [
+        "METIS"
+      ],
+      "selected_correct": true,
+      "ml_only_correct": false,
+      "selected_relative_npv_regret": 0.0,
+      "spatial_relative_npv_regret": 0.0040733018918068,
+      "metis_relative_npv_regret": 0.0,
+      "ranked": [
+        {
+          "method": "METIS",
+          "score": 0.6696225995100236,
+          "ml_probability": 0.3615564987750589,
+          "economic_quality": 1.0,
+          "balance_quality": 0.5,
+          "cut_quality": 1.0
+        },
+        {
+          "method": "Spatial",
+          "score": 0.34691970062360217,
+          "ml_probability": 0.6797992515590053,
+          "economic_quality": 0.0,
+          "balance_quality": 0.5,
+          "cut_quality": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "mclaughlingeo",
+      "partitions": 8,
+      "selected_method": "Spatial",
+      "ml_only_method": "Spatial",
+      "observed_best_methods": [
+        "Spatial"
+      ],
+      "selected_correct": true,
+      "ml_only_correct": true,
+      "selected_relative_npv_regret": 0.0,
+      "spatial_relative_npv_regret": 0.0,
+      "metis_relative_npv_regret": 0.0039657259027070174,
+      "ranked": [
+        {
+          "method": "Spatial",
+          "score": 0.6566976113471067,
+          "ml_probability": 0.5167440283677668,
+          "economic_quality": 1.0,
+          "balance_quality": 0.0,
+          "cut_quality": 1.0
+        },
+        {
+          "method": "METIS",
+          "score": 0.3360262644518417,
+          "ml_probability": 0.4650656611296043,
+          "economic_quality": 0.0,
+          "balance_quality": 1.0,
+          "cut_quality": 0.0
+        }
+      ]
+    },
+    {
+      "dataset": "mclaughlingeo",
+      "partitions": 12,
+      "selected_method": "Spatial",
+      "ml_only_method": "Spatial",
+      "observed_best_methods": [
+        "Spatial"
+      ],
+      "selected_correct": true,
+      "ml_only_correct": true,
+      "selected_relative_npv_regret": 0.0,
+      "spatial_relative_npv_regret": 0.0,
+      "metis_relative_npv_regret": 0.01703714921713804,
+      "ranked": [
+        {
+          "method": "Spatial",
+          "score": 0.677196652772313,
+          "ml_probability": 0.5679916319307824,
+          "economic_quality": 1.0,
+          "balance_quality": 0.0,
+          "cut_quality": 1.0
+        },
+        {
+          "method": "METIS",
+          "score": 0.3458822969770033,
+          "ml_probability": 0.4897057424425082,
+          "economic_quality": 0.0,
+          "balance_quality": 1.0,
+          "cut_quality": 0.0
+        }
+      ]
+    }
+  ],
+  "training_csv": "/mnt/c/Users/UMaT/Desktop/python/Machine Learning/LG-Pseudoflow Opt/Pit_Optimization/results/hybrid_v36_grid_training_data.csv",
+  "model": "/mnt/c/Users/UMaT/Desktop/python/Machine Learning/LG-Pseudoflow Opt/Pit_Optimization/results/hybrid_v36_grid_selector.pkl",
+  "limitations": [
+    "There are more paired outcome settings, but only four independent deposits; leave-one-deposit-out remains the generalization check.",
+    "Partition counts are related runs on the same deposits, not independent geological samples.",
+    "Only Spatial and METIS are included in this expanded V3.6 comparison."
+  ]
+}

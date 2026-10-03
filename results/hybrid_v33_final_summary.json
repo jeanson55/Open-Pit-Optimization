@@ -1,0 +1,38 @@
+[
+    {
+        "dataset": "bauxitemed",
+        "NPV": 28652908.0,
+        "runtime_s": 38.771414442002424,
+        "partition_s": 16.39860048400442,
+        "solve_s": 27.671138010991854,
+        "violations": 0,
+        "initial_violations": 1465
+    },
+    {
+        "dataset": "cucase",
+        "NPV": 19359730.0,
+        "runtime_s": 185.7185395080014,
+        "partition_s": 54.46458081700257,
+        "solve_s": 134.02050309699553,
+        "violations": 0,
+        "initial_violations": 2309
+    },
+    {
+        "dataset": "cupipe",
+        "NPV": 57815484.0,
+        "runtime_s": 165.34165648400085,
+        "partition_s": 54.0935989339996,
+        "solve_s": 112.90903330599394,
+        "violations": 0,
+        "initial_violations": 12257
+    },
+    {
+        "dataset": "mclaughlingeo",
+        "NPV": 1179217403.0,
+        "runtime_s": 197.69122783299827,
+        "partition_s": 59.93055651999748,
+        "solve_s": 142.95958784200047,
+        "violations": 0,
+        "initial_violations": 6350
+    }
+]

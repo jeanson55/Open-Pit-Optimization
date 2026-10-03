@@ -1,0 +1,25 @@
+{
+  "dataset": "bauxitemed",
+  "dimensions": [
+    120,
+    120,
+    26
+  ],
+  "partition_method_recorded": "metis",
+  "warning": "The run was recorded as metis, but the terminal output reported pymetis was unavailable and the partition implementation fell back to spatial_partition. Treat this trace as spatial fallback, not validated METIS.",
+  "partitions": 9,
+  "solver_counts": {
+    "LG": 0,
+    "HPF": 9
+  },
+  "initial_npv": 31325323.0,
+  "repair_seed_npv": 28610119.0,
+  "final_npv": 28804730.0,
+  "initial_violations": 1691,
+  "final_violations": 0,
+  "repair_added_blocks": 10375,
+  "repair_depth": 25,
+  "boundary_nodes": 27405,
+  "boundary_removed_blocks": 1012,
+  "boundary_npv_gain": 194611.0
+}

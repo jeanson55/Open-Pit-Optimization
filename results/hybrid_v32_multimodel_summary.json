@@ -1,0 +1,122 @@
+{
+  "bauxitemed": {
+    "nodes": 250119,
+    "edges": 1177998,
+    "build_time": 25.087391045002732,
+    "spatial": {
+      "runtime": 1.7745341839981847,
+      "balance": 2.3155555555555556,
+      "cut": 18278,
+      "cut_percent": 1.551615537547602,
+      "min_size": 22500,
+      "max_size": 52100
+    },
+    "metis": {
+      "runtime": 6.6279689139992115,
+      "balance": 1.0000319856704196,
+      "cut": 20954,
+      "cut_percent": 1.77878060913516,
+      "min_size": 31264,
+      "max_size": 31265
+    },
+    "hybrid": {
+      "runtime": 10.514284700002463,
+      "selected": "Spatial",
+      "balance": 2.3155555555555556,
+      "cut": 18278,
+      "cut_percent": 1.551615537547602,
+      "min_size": 22500,
+      "max_size": 52100
+    }
+  },
+  "cucase": {
+    "nodes": 64245,
+    "edges": 296378,
+    "build_time": 7.216527356002189,
+    "spatial": {
+      "runtime": 0.4899946719961008,
+      "balance": 3.0533333333333332,
+      "cut": 8698,
+      "cut_percent": 2.9347657383476506,
+      "min_size": 4875,
+      "max_size": 14885
+    },
+    "metis": {
+      "runtime": 1.2486922610041802,
+      "balance": 1.0001245330012454,
+      "cut": 10024,
+      "cut_percent": 3.382167367348454,
+      "min_size": 8030,
+      "max_size": 8031
+    },
+    "hybrid": {
+      "runtime": 4.833093938999809,
+      "selected": "Spatial",
+      "balance": 3.0533333333333332,
+      "cut": 8698,
+      "cut_percent": 2.9347657383476506,
+      "min_size": 4875,
+      "max_size": 14885
+    }
+  },
+  "cupipe": {
+    "nodes": 181795,
+    "edges": 858478,
+    "build_time": 19.895276333001675,
+    "spatial": {
+      "runtime": 1.2417830129998038,
+      "balance": 3.2304029304029305,
+      "cut": 17428,
+      "cut_percent": 2.0301044406496147,
+      "min_size": 13650,
+      "max_size": 44095
+    },
+    "metis": {
+      "runtime": 4.940984326000034,
+      "balance": 1.0000440063369125,
+      "cut": 22431,
+      "cut_percent": 2.6128800039139035,
+      "min_size": 22724,
+      "max_size": 22725
+    },
+    "hybrid": {
+      "runtime": 7.437869380999473,
+      "selected": "Spatial",
+      "balance": 3.2304029304029305,
+      "cut": 17428,
+      "cut_percent": 2.0301044406496147,
+      "min_size": 13650,
+      "max_size": 44095
+    }
+  },
+  "mclaughlingeo": {
+    "nodes": 133769,
+    "edges": 627898,
+    "build_time": 15.830029099000967,
+    "spatial": {
+      "runtime": 0.9376100709996535,
+      "balance": 3.1733462095605987,
+      "cut": 14188,
+      "cut_percent": 2.2596026743197144,
+      "min_size": 10355,
+      "max_size": 32860
+    },
+    "metis": {
+      "runtime": 2.517921919003129,
+      "balance": 1.000059805035584,
+      "cut": 17477,
+      "cut_percent": 2.783413866583426,
+      "min_size": 16721,
+      "max_size": 16722
+    },
+    "hybrid": {
+      "runtime": 7.841179547998763,
+      "selected": "Spatial",
+      "balance": 3.1733462095605987,
+      "cut": 14188,
+      "cut_percent": 2.2596026743197144,
+      "min_size": 10355,
+      "max_size": 32860
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "dataset": "sim2d76",
+  "dimensions": [
+    75,
+    1,
+    40
+  ],
+  "samples": 4,
+  "sample_sizes": [
+    8,
+    12
+  ],
+  "samples_skipped_above_lg_limit": 0,
+  "lg_sample_node_limit": 20000,
+  "labels": {
+    "LG": 4
+  },
+  "mean_absolute_objective_delta": 0.0,
+  "csv": "/mnt/c/Users/UMaT/Desktop/python/Machine Learning/LG-Pseudoflow Opt/Pit_Optimization/results/adaptive_solver_crossover_sim2d76.csv",
+  "ml_model": null,
+  "scope_warning": "single-model spatial-patch pilot; not an independent validation set",
+  "ml_status": "not fitted: need at least 12 samples and both solver labels"
+}

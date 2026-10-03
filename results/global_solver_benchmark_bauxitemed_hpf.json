@@ -1,0 +1,20 @@
+{
+  "dataset": "bauxitemed",
+  "dimensions": [
+    120,
+    120,
+    26
+  ],
+  "precedence_template": "1x5",
+  "graph_build_runtime_s": 16.728320349,
+  "graph_nodes": 240502,
+  "graph_edges": 1371000,
+  "real_nodes": 240500,
+  "precedence_arcs": 1130500,
+  "self_loops_dropped": 0,
+  "hpf_runtime_s": 27.522985214000073,
+  "hpf_blocks": 73419,
+  "hpf_npv": 29690715.0,
+  "hpf_violations": 0,
+  "peak_process_rss_mb": 1476.32421875
+}

@@ -1,0 +1,12 @@
+{
+  "seed": 7341,
+  "random_graph_cases": 100,
+  "move_delta_matches_full_recomputation": 4833,
+  "swap_delta_matches_full_recomputation": 4691,
+  "cases_with_nonincreasing_cut": 100,
+  "deterministic_cases": 100,
+  "known_cut_reduction": 2,
+  "known_pair_swap_cut_reduction": 1,
+  "known_pair_swaps_applied": 1,
+  "status": "passed"
+}

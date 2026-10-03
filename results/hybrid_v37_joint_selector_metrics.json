@@ -1,0 +1,377 @@
+{
+  "version": "3.7-joint-pilot",
+  "candidate_count": 28,
+  "independent_deposit_groups": 4,
+  "methods": [
+    "spatial",
+    "metis",
+    "spectral"
+  ],
+  "partition_counts": [
+    4,
+    8,
+    12
+  ],
+  "candidate_settings_per_deposit": 7,
+  "validation": "leave-one-deposit-out; candidate features are pre-solve graph and partition telemetry",
+  "joint_selector_accuracy": 0.75,
+  "joint_selector_mean_relative_npv_regret": 0.0010183254729517,
+  "joint_selector_mean_selected_reported_runtime_s": 127.3748754882472,
+  "baseline_summary": {
+    "train_majority_winning_configuration": {
+      "accuracy": 0.75,
+      "mean_relative_npv_regret": 0.0010183254729517
+    },
+    "train_lowest_mean_regret_configuration": {
+      "accuracy": 0.75,
+      "mean_relative_npv_regret": 0.0010183254729517
+    },
+    "train_selected_spatial_count": {
+      "accuracy": 0.75,
+      "mean_relative_npv_regret": 0.0010183254729517
+    },
+    "fixed_spatial_k4": {
+      "accuracy": 0.75,
+      "mean_relative_npv_regret": 0.0010183254729517
+    },
+    "fixed_spatial_k8": {
+      "accuracy": 0.0,
+      "mean_relative_npv_regret": 0.15215148152836885
+    },
+    "fixed_spatial_k12": {
+      "accuracy": 0.0,
+      "mean_relative_npv_regret": 0.10732721893225555
+    },
+    "fixed_metis_k4": {
+      "accuracy": 0.25,
+      "mean_relative_npv_regret": 0.11193931957875244
+    },
+    "fixed_metis_k8": {
+      "accuracy": 0.0,
+      "mean_relative_npv_regret": 0.15427235861982358
+    },
+    "fixed_metis_k12": {
+      "accuracy": 0.0,
+      "mean_relative_npv_regret": 0.17162747899919711
+    },
+    "fixed_spectral_k4": {
+      "accuracy": 0.0,
+      "mean_relative_npv_regret": 0.2336436342276235
+    }
+  },
+  "holdouts": [
+    {
+      "dataset": "bauxitemed",
+      "selected_method": "spatial",
+      "selected_partitions": 4,
+      "observed_best_configs": [
+        {
+          "method": "spatial",
+          "partitions": 4
+        }
+      ],
+      "correct": true,
+      "relative_npv_regret": 0.0,
+      "selected_reported_runtime_s": 35.20434022499103,
+      "baselines": {
+        "train_majority_winning_configuration": {
+          "selected_method": "spatial",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.0,
+          "correct": true
+        },
+        "train_lowest_mean_regret_configuration": {
+          "selected_method": "spatial",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.0,
+          "correct": true
+        },
+        "train_selected_spatial_count": {
+          "selected_method": "spatial",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.0,
+          "correct": true
+        },
+        "fixed_spatial_k4": {
+          "selected_method": "spatial",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.0,
+          "correct": true
+        },
+        "fixed_spatial_k8": {
+          "selected_method": "spatial",
+          "selected_partitions": 8,
+          "relative_npv_regret": 0.014200912712582855,
+          "correct": false
+        },
+        "fixed_spatial_k12": {
+          "selected_method": "spatial",
+          "selected_partitions": 12,
+          "relative_npv_regret": 0.08290915876797185,
+          "correct": false
+        },
+        "fixed_metis_k4": {
+          "selected_method": "metis",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.003681938556579486,
+          "correct": false
+        },
+        "fixed_metis_k8": {
+          "selected_method": "metis",
+          "selected_partitions": 8,
+          "relative_npv_regret": 0.028022615135582473,
+          "correct": false
+        },
+        "fixed_metis_k12": {
+          "selected_method": "metis",
+          "selected_partitions": 12,
+          "relative_npv_regret": 0.10355557985302728,
+          "correct": false
+        },
+        "fixed_spectral_k4": {
+          "selected_method": "spectral",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.4593160033107102,
+          "correct": false
+        }
+      }
+    },
+    {
+      "dataset": "cucase",
+      "selected_method": "spatial",
+      "selected_partitions": 4,
+      "observed_best_configs": [
+        {
+          "method": "spatial",
+          "partitions": 4
+        }
+      ],
+      "correct": true,
+      "relative_npv_regret": 0.0,
+      "selected_reported_runtime_s": 146.82658220300436,
+      "baselines": {
+        "train_majority_winning_configuration": {
+          "selected_method": "spatial",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.0,
+          "correct": true
+        },
+        "train_lowest_mean_regret_configuration": {
+          "selected_method": "spatial",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.0,
+          "correct": true
+        },
+        "train_selected_spatial_count": {
+          "selected_method": "spatial",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.0,
+          "correct": true
+        },
+        "fixed_spatial_k4": {
+          "selected_method": "spatial",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.0,
+          "correct": true
+        },
+        "fixed_spatial_k8": {
+          "selected_method": "spatial",
+          "selected_partitions": 8,
+          "relative_npv_regret": 0.003913911441772399,
+          "correct": false
+        },
+        "fixed_spatial_k12": {
+          "selected_method": "spatial",
+          "selected_partitions": 12,
+          "relative_npv_regret": 0.00410052583377067,
+          "correct": false
+        },
+        "fixed_metis_k4": {
+          "selected_method": "metis",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.0006234371623498904,
+          "correct": false
+        },
+        "fixed_metis_k8": {
+          "selected_method": "metis",
+          "selected_partitions": 8,
+          "relative_npv_regret": 0.001795861245742393,
+          "correct": false
+        },
+        "fixed_metis_k12": {
+          "selected_method": "metis",
+          "selected_partitions": 12,
+          "relative_npv_regret": 0.0033497463443748136,
+          "correct": false
+        },
+        "fixed_spectral_k4": {
+          "selected_method": "spectral",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.01540024079276387,
+          "correct": false
+        }
+      }
+    },
+    {
+      "dataset": "cupipe",
+      "selected_method": "spatial",
+      "selected_partitions": 4,
+      "observed_best_configs": [
+        {
+          "method": "spatial",
+          "partitions": 4
+        }
+      ],
+      "correct": true,
+      "relative_npv_regret": 0.0,
+      "selected_reported_runtime_s": 145.5112908749943,
+      "baselines": {
+        "train_majority_winning_configuration": {
+          "selected_method": "spatial",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.0,
+          "correct": true
+        },
+        "train_lowest_mean_regret_configuration": {
+          "selected_method": "spatial",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.0,
+          "correct": true
+        },
+        "train_selected_spatial_count": {
+          "selected_method": "spatial",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.0,
+          "correct": true
+        },
+        "fixed_spatial_k4": {
+          "selected_method": "spatial",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.0,
+          "correct": true
+        },
+        "fixed_spatial_k8": {
+          "selected_method": "spatial",
+          "selected_partitions": 8,
+          "relative_npv_regret": 0.5816804380186994,
+          "correct": false
+        },
+        "fixed_spatial_k12": {
+          "selected_method": "spatial",
+          "selected_partitions": 12,
+          "relative_npv_regret": 0.3371384767755974,
+          "correct": false
+        },
+        "fixed_metis_k4": {
+          "selected_method": "metis",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.4434519025960804,
+          "correct": false
+        },
+        "fixed_metis_k8": {
+          "selected_method": "metis",
+          "selected_partitions": 8,
+          "relative_npv_regret": 0.5745295089330503,
+          "correct": false
+        },
+        "fixed_metis_k12": {
+          "selected_method": "metis",
+          "selected_partitions": 12,
+          "relative_npv_regret": 0.5574946500910426,
+          "correct": false
+        },
+        "fixed_spectral_k4": {
+          "selected_method": "spectral",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.4133915433835973,
+          "correct": false
+        }
+      }
+    },
+    {
+      "dataset": "mclaughlingeo",
+      "selected_method": "spatial",
+      "selected_partitions": 4,
+      "observed_best_configs": [
+        {
+          "method": "metis",
+          "partitions": 4
+        }
+      ],
+      "correct": false,
+      "relative_npv_regret": 0.0040733018918068,
+      "selected_reported_runtime_s": 181.9572886499991,
+      "baselines": {
+        "train_majority_winning_configuration": {
+          "selected_method": "spatial",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.0040733018918068,
+          "correct": false
+        },
+        "train_lowest_mean_regret_configuration": {
+          "selected_method": "spatial",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.0040733018918068,
+          "correct": false
+        },
+        "train_selected_spatial_count": {
+          "selected_method": "spatial",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.0040733018918068,
+          "correct": false
+        },
+        "fixed_spatial_k4": {
+          "selected_method": "spatial",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.0040733018918068,
+          "correct": false
+        },
+        "fixed_spatial_k8": {
+          "selected_method": "spatial",
+          "selected_partitions": 8,
+          "relative_npv_regret": 0.008810663940420684,
+          "correct": false
+        },
+        "fixed_spatial_k12": {
+          "selected_method": "spatial",
+          "selected_partitions": 12,
+          "relative_npv_regret": 0.005160714351682328,
+          "correct": false
+        },
+        "fixed_metis_k4": {
+          "selected_method": "metis",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.0,
+          "correct": true
+        },
+        "fixed_metis_k8": {
+          "selected_method": "metis",
+          "selected_partitions": 8,
+          "relative_npv_regret": 0.012741449164919127,
+          "correct": false
+        },
+        "fixed_metis_k12": {
+          "selected_method": "metis",
+          "selected_partitions": 12,
+          "relative_npv_regret": 0.022109939708343733,
+          "correct": false
+        },
+        "fixed_spectral_k4": {
+          "selected_method": "spectral",
+          "selected_partitions": 4,
+          "relative_npv_regret": 0.04646674942342265,
+          "correct": false
+        }
+      }
+    }
+  ],
+  "training_data": "/mnt/c/Users/UMaT/Desktop/python/Machine Learning/LG-Pseudoflow Opt/Pit_Optimization/results/hybrid_v37_joint_training_data.csv",
+  "pilot_model": "/mnt/c/Users/UMaT/Desktop/python/Machine Learning/LG-Pseudoflow Opt/Pit_Optimization/results/hybrid_v37_joint_selector_pilot.pkl",
+  "limitations": [
+    "Only four independent deposits are available; counts and methods on one deposit are correlated candidate rows, not independent geology samples.",
+    "Spectral has measured outcomes only at four partitions and its embedding emitted convergence-tolerance warnings on three large graphs.",
+    "Historical k=8 Spatial/METIS candidate labels and their structural features are deterministically regenerated for this analysis.",
+    "The fitted all-data artifact is not integrated into the solver because held-out results must beat fixed baselines before deployment.",
+    "Reported selected runtimes include only the selected candidate's partition, solve, and repair time; a candidate-feature selector that generates every candidate would add their generation costs."
+  ]
+}

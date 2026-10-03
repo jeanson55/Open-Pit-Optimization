@@ -1,0 +1,12 @@
+Bauxitemed Adaptive LG/HPF ParaView Trace
+===========================================
+Real blocks: 240,500
+Dimensions: 120 x 120 x 26
+Initial NPV: 31,801,369
+Final NPV: 26,556,907
+Local selected: 71,831
+Repair additions: 13,953
+Maximum repair level: 25
+Boundary members: 32,853
+Boundary additions: 2
+Boundary removals: 1,986

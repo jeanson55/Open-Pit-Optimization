@@ -1,0 +1,268 @@
+{
+  "policy": "heuristic",
+  "partitions": [
+    {
+      "partition": 0,
+      "solver": "HPF",
+      "features": {
+        "node_count": 73810,
+        "arc_count": 347510,
+        "arcs_per_node": 4.708169624712099,
+        "mean_in_degree": 4.708169624712099,
+        "mean_out_degree": 4.708169624712099,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.23108745489472662,
+        "positive_value_fraction": 0.0,
+        "negative_value_fraction": 1.0,
+        "value_mean": -537.0,
+        "value_std": 0.0,
+        "absolute_value_sum": 39635970.0,
+        "near_zero_value_fraction": 0.0
+      },
+      "local_solve_runtime_s": 11.626892419000797,
+      "local_blocks": 0,
+      "local_npv": 0.0
+    },
+    {
+      "partition": 1,
+      "solver": "HPF",
+      "features": {
+        "node_count": 109800,
+        "arc_count": 523920,
+        "arcs_per_node": 4.771584699453552,
+        "mean_in_degree": 4.771584699453552,
+        "mean_out_degree": 4.771584699453552,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.19140528522430178,
+        "positive_value_fraction": 0.0,
+        "negative_value_fraction": 1.0,
+        "value_mean": -537.0,
+        "value_std": 0.0,
+        "absolute_value_sum": 58962600.0,
+        "near_zero_value_fraction": 0.0
+      },
+      "local_solve_runtime_s": 9.187973920998047,
+      "local_blocks": 0,
+      "local_npv": 0.0
+    },
+    {
+      "partition": 2,
+      "solver": "HPF",
+      "features": {
+        "node_count": 73810,
+        "arc_count": 347510,
+        "arcs_per_node": 4.708169624712099,
+        "mean_in_degree": 4.708169624712099,
+        "mean_out_degree": 4.708169624712099,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.23108745489472662,
+        "positive_value_fraction": 0.0,
+        "negative_value_fraction": 1.0,
+        "value_mean": -537.0,
+        "value_std": 0.0,
+        "absolute_value_sum": 39635970.0,
+        "near_zero_value_fraction": 0.0
+      },
+      "local_solve_runtime_s": 13.41066463199968,
+      "local_blocks": 0,
+      "local_npv": 0.0
+    },
+    {
+      "partition": 3,
+      "solver": "HPF",
+      "features": {
+        "node_count": 109800,
+        "arc_count": 523920,
+        "arcs_per_node": 4.771584699453552,
+        "mean_in_degree": 4.771584699453552,
+        "mean_out_degree": 4.771584699453552,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.1914052852243018,
+        "positive_value_fraction": 0.008570127504553734,
+        "negative_value_fraction": 0.9914298724954462,
+        "value_mean": -505.2385154826958,
+        "value_std": 394.4150732242658,
+        "absolute_value_sum": 60774493.0,
+        "near_zero_value_fraction": 0.0
+      },
+      "local_solve_runtime_s": 9.21701924700028,
+      "local_blocks": 35,
+      "local_npv": 15023.0
+    },
+    {
+      "partition": 4,
+      "solver": "HPF",
+      "features": {
+        "node_count": 253600,
+        "arc_count": 1235600,
+        "arcs_per_node": 4.87223974763407,
+        "mean_in_degree": 4.87223974763407,
+        "mean_out_degree": 4.87223974763407,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.12935967690605366,
+        "positive_value_fraction": 0.2511435331230284,
+        "negative_value_fraction": 0.7487697160883281,
+        "value_mean": 996.5193020504731,
+        "value_std": 3966.2245643364326,
+        "absolute_value_sum": 437860337.0,
+        "near_zero_value_fraction": 8.675078864353312e-05
+      },
+      "local_solve_runtime_s": 39.61467655799788,
+      "local_blocks": 231624,
+      "local_npv": 260056417.0
+    },
+    {
+      "partition": 5,
+      "solver": "HPF",
+      "features": {
+        "node_count": 109800,
+        "arc_count": 523920,
+        "arcs_per_node": 4.771584699453552,
+        "mean_in_degree": 4.771584699453552,
+        "mean_out_degree": 4.771584699453552,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.1914052852243018,
+        "positive_value_fraction": 0.0,
+        "negative_value_fraction": 1.0,
+        "value_mean": -537.0,
+        "value_std": 0.0,
+        "absolute_value_sum": 58962600.0,
+        "near_zero_value_fraction": 0.0
+      },
+      "local_solve_runtime_s": 9.895241129997885,
+      "local_blocks": 0,
+      "local_npv": 0.0
+    },
+    {
+      "partition": 6,
+      "solver": "HPF",
+      "features": {
+        "node_count": 73810,
+        "arc_count": 347510,
+        "arcs_per_node": 4.708169624712099,
+        "mean_in_degree": 4.708169624712099,
+        "mean_out_degree": 4.708169624712099,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.23108745489472662,
+        "positive_value_fraction": 0.00075870478254979,
+        "negative_value_fraction": 0.9992412952174502,
+        "value_mean": -533.643259720905,
+        "value_std": 136.9985162885781,
+        "absolute_value_sum": 39790423.0,
+        "near_zero_value_fraction": 0.0
+      },
+      "local_solve_runtime_s": 6.845927917998779,
+      "local_blocks": 20,
+      "local_npv": 10718.0
+    },
+    {
+      "partition": 7,
+      "solver": "HPF",
+      "features": {
+        "node_count": 183610,
+        "arc_count": 874970,
+        "arcs_per_node": 4.765372256413049,
+        "mean_in_degree": 4.765372256413049,
+        "mean_out_degree": 4.765372256413049,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.20608781367995188,
+        "positive_value_fraction": 0.0038559991285877677,
+        "negative_value_fraction": 0.9961440008714122,
+        "value_mean": -525.73853820598,
+        "value_std": 177.0360590853087,
+        "absolute_value_sum": 98929935.0,
+        "near_zero_value_fraction": 0.0
+      },
+      "local_solve_runtime_s": 34.02421443300045,
+      "local_blocks": 60,
+      "local_npv": 10635.0
+    }
+  ],
+  "solver_counts": {
+    "LG": 0,
+    "HPF": 8
+  },
+  "local_solve_runtime_s": 133.8226102579938,
+  "total_runtime_s": 184.97754204100056,
+  "initial_blocks_mined": 231739,
+  "initial_npv": 260092793.0,
+  "initial_violations": 12257,
+  "refinement_runtime_s": 4.764196005999111,
+  "final_blocks_mined": 617401,
+  "final_violations": 0,
+  "final_npv": 57815484.0,
+  "repair_mode": "add",
+  "refinement": "add",
+  "cascade_added_blocks": 385662,
+  "cascade_removed_blocks": 0,
+  "cascade_depth": 60,
+  "violation_cluster_count": 12096,
+  "largest_violation_cluster_nodes": 3,
+  "largest_violation_cluster_arcs": 2,
+  "violation_cluster_arcs_top10": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "partition_method": "hybrid_v36",
+  "partition_runtime_s": 58.21243597799912,
+  "partitions_requested": 8,
+  "dataset": "cupipe",
+  "dimensions": [
+    180,
+    180,
+    85
+  ],
+  "precedence_template": "1x5",
+  "boundary_refinement_strategy": "add",
+  "hybrid_v36_selection": {
+    "selected_method": "Spatial",
+    "score_weights": {
+      "ml_probability": 0.4,
+      "economic_quality": 0.3,
+      "balance_quality": 0.15,
+      "cut_quality": 0.15
+    },
+    "ranked_candidates": [
+      {
+        "method": "Spatial",
+        "score": 0.6127394895299239,
+        "ml_probability": 0.4068487238248095,
+        "score_components": {
+          "ml_probability": 0.4068487238248095,
+          "economic_quality": 1.0,
+          "balance_quality": 0.0,
+          "cut_quality": 1.0
+        },
+        "cut_arcs": 53340,
+        "cut_fraction": 0.01116319953120422,
+        "balance_ratio": 3.4358488009754775,
+        "boundary_nodes": 53802,
+        "boundary_abs_value_fraction": 0.03690712129916915
+      },
+      {
+        "method": "METIS",
+        "score": 0.3708196268063269,
+        "ml_probability": 0.5520490670158172,
+        "score_components": {
+          "ml_probability": 0.5520490670158172,
+          "economic_quality": 0.0,
+          "balance_quality": 1.0,
+          "cut_quality": 0.0
+        },
+        "cut_arcs": 72504,
+        "cut_fraction": 0.015173914863337658,
+        "balance_ratio": 1.0,
+        "boundary_nodes": 61332,
+        "boundary_abs_value_fraction": 0.07192112943216186
+      }
+    ]
+  }
+}

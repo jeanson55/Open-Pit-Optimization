@@ -1,0 +1,146 @@
+{
+  "policy": "heuristic",
+  "partitions": [
+    {
+      "partition": 0,
+      "solver": "HPF",
+      "features": {
+        "node_count": 310386,
+        "arc_count": 1463700,
+        "arcs_per_node": 4.71574104502136,
+        "mean_in_degree": 4.71574104502136,
+        "mean_out_degree": 4.71574104502136,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.20485903425318122,
+        "positive_value_fraction": 0.04170935544773282,
+        "negative_value_fraction": 0.9582906445522672,
+        "value_mean": 1324.389469885884,
+        "value_std": 19879.0314035331,
+        "absolute_value_sum": 1220506874.0,
+        "near_zero_value_fraction": 0.0
+      },
+      "local_solve_runtime_s": 34.77361218900478,
+      "local_blocks": 95489,
+      "local_npv": 688237535.0
+    },
+    {
+      "partition": 1,
+      "solver": "HPF",
+      "features": {
+        "node_count": 310386,
+        "arc_count": 1490764,
+        "arcs_per_node": 4.802935699419432,
+        "mean_in_degree": 4.802935699419432,
+        "mean_out_degree": 4.802935699419432,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.19082179528920384,
+        "positive_value_fraction": 0.0100326689992461,
+        "negative_value_fraction": 0.9899673310007538,
+        "value_mean": -959.0889312017939,
+        "value_std": 6135.118536320149,
+        "absolute_value_sum": 538643221.0,
+        "near_zero_value_fraction": 0.0
+      },
+      "local_solve_runtime_s": 36.77393795799435,
+      "local_blocks": 29325,
+      "local_npv": 72494297.0
+    },
+    {
+      "partition": 2,
+      "solver": "HPF",
+      "features": {
+        "node_count": 310386,
+        "arc_count": 1442569,
+        "arcs_per_node": 4.6476612991565345,
+        "mean_in_degree": 4.6476612991565345,
+        "mean_out_degree": 4.6476612991565345,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.23950092007322735,
+        "positive_value_fraction": 0.033355241537955965,
+        "negative_value_fraction": 0.966644758462044,
+        "value_mean": 2.734305026644243,
+        "value_std": 10491.150476288321,
+        "absolute_value_sum": 818422778.0,
+        "near_zero_value_fraction": 0.0
+      },
+      "local_solve_runtime_s": 38.17159367900604,
+      "local_blocks": 105249,
+      "local_npv": 263569549.0
+    },
+    {
+      "partition": 3,
+      "solver": "HPF",
+      "features": {
+        "node_count": 310386,
+        "arc_count": 1413364,
+        "arcs_per_node": 4.5535687820971305,
+        "mean_in_degree": 4.5535687820971305,
+        "mean_out_degree": 4.5535687820971305,
+        "max_out_degree": 5,
+        "out_degree_cv": 0.2865674446500616,
+        "positive_value_fraction": 0.018699297004375198,
+        "negative_value_fraction": 0.9813007029956248,
+        "value_mean": -448.51812903932523,
+        "value_std": 9861.587199944372,
+        "absolute_value_sum": 690222074.0,
+        "near_zero_value_fraction": 0.0
+      },
+      "local_solve_runtime_s": 46.41650934500649,
+      "local_blocks": 38272,
+      "local_npv": 220424164.0
+    }
+  ],
+  "solver_counts": {
+    "LG": 0,
+    "HPF": 4
+  },
+  "local_solve_runtime_s": 156.13565317101165,
+  "total_runtime_s": 213.37971942700096,
+  "initial_blocks_mined": 268335,
+  "initial_npv": 1244725545.0,
+  "initial_violations": 27342,
+  "refinement_runtime_s": 3.247862021999026,
+  "final_blocks_mined": 364604,
+  "final_violations": 0,
+  "final_npv": 1134417979.0,
+  "repair_mode": "add",
+  "refinement": "add",
+  "cascade_added_blocks": 96269,
+  "cascade_removed_blocks": 0,
+  "cascade_depth": 48,
+  "violation_cluster_count": 3355,
+  "largest_violation_cluster_nodes": 4415,
+  "largest_violation_cluster_arcs": 10170,
+  "violation_cluster_arcs_top10": [
+    10170,
+    3997,
+    800,
+    80,
+    65,
+    57,
+    55,
+    52,
+    50,
+    49
+  ],
+  "partition_method": "spectral",
+  "partition_runtime_s": 410.635344383998,
+  "partitions_requested": 4,
+  "dataset": "mclaughlingeo",
+  "dimensions": [
+    140,
+    296,
+    68
+  ],
+  "precedence_template": "1x5",
+  "boundary_refinement_strategy": "add",
+  "partition_quality": {
+    "edge_cut": 0.03168442068354076,
+    "cut_edges": 190123,
+    "total_edges": 6000520,
+    "balance": 1.0,
+    "n_partitions": 4,
+    "min_part": 310386,
+    "max_part": 310386
+  }
+}

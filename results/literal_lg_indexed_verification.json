@@ -1,0 +1,68 @@
+{
+  "implementation": "indexed merger candidate heap and ordered normalization-violation heap",
+  "exact_small_graph_verification": {
+    "seed": 3651,
+    "cases": 200,
+    "node_range": [4, 11],
+    "objective_matches_exhaustive": 200,
+    "feasible_solutions": 200,
+    "mergers": 312,
+    "prunes": 8,
+    "solve_seconds_total": 0.014552100110449828,
+    "status": "passed"
+  },
+  "synthetic_sparse_graph_smoke": {
+    "nodes": 1200,
+    "arcs": 1690,
+    "solve_seconds": 0.13,
+    "mergers": 653,
+    "prunes": 32,
+    "objective": 1369.6,
+    "precedence_violations": 0,
+    "note": "Synthetic DAG timing only; not a measured mining block model and not an HPF comparison."
+  },
+  "larger_synthetic_stress": {
+    "nodes": 6000,
+    "status": "interrupted before completion",
+    "reason": "Repeated branch mass recomputation remained expensive on this synthetic topology; no runtime or solution claim is made."
+  },
+  "industrial_full_model_literal_lg": {
+    "dataset": "bauxitemed",
+    "nodes": 240502,
+    "precedence_arcs": 1130500,
+    "status": "completed; exact agreement with HPF",
+    "literal_lg_runtime_seconds_before_normalization_traversal_reuse": 13805.994832252,
+    "hpf_runtime_seconds": 20.15773070900468,
+    "literal_lg_npv": 29690715.0,
+    "hpf_npv": 29690715.0,
+    "literal_lg_violations": 0,
+    "hpf_violations": 0,
+    "jaccard_membership": 1.0,
+    "peak_process_rss_mb": 2211.13671875,
+    "benchmark_result": "results/global_solver_benchmark_bauxitemed.json",
+    "benchmark_log": "results/global_solver_benchmark_bauxitemed.log",
+    "literal_lg_runtime_seconds_after_normalization_traversal_reuse": 13206.653538227998,
+    "hpf_runtime_seconds_after_normalization_traversal_reuse": 23.39146613399498,
+    "peak_process_rss_mb_after_normalization_traversal_reuse": 2207.03125,
+    "runtime_reduction_seconds": 599.3412940240014,
+    "runtime_reduction_percent": 4.3411670169822765,
+    "optimized_benchmark_result": "results/global_solver_benchmark_bauxitemed_normreuse.json",
+    "note": "The optimized repeat retained exact membership, objective, and feasibility agreement with HPF. The measured LiteralLG runtime improved by 4.34%; phase-level normalization time improved by 5.90%."
+  },
+  "additional_industrial_full_model_literal_lg": {
+    "dataset": "cucase",
+    "nodes": 1045952,
+    "precedence_arcs": 5047000,
+    "literal_lg_runtime_seconds": 5939.303382421,
+    "hpf_runtime_seconds": 105.41654271900188,
+    "literal_lg_npv": 19444156.0,
+    "hpf_npv": 19444156.0,
+    "literal_lg_blocks": 327235,
+    "hpf_blocks": 327235,
+    "literal_lg_violations": 0,
+    "hpf_violations": 0,
+    "jaccard_membership": 1.0,
+    "peak_process_rss_mb": 6266.390625,
+    "benchmark_result": "results/global_solver_benchmark_cucase.json"
+  }
+}
